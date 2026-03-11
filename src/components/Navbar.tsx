@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLanguage, type Locale } from "@/context/LanguageContext";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -15,13 +15,13 @@ const LOCALE_LABELS: Record<Locale, string> = {
   arc: "ܐܪܡ",
 };
 
-const LOCALE_DISPLAY: Record<Locale, string> = {
-  en: "🇬🇧 English",
-  es: "🇪🇸 Español",
-  fr: "🇫🇷 Français",
-  la: "✝️ Latina",
-  el: "🇬🇷 Ελληνικά",
-  arc: "🕊️ ܣܘܪܝܝܐ",
+const LOCALE_DISPLAY: Record<Locale, { label: string; ariaLabel: string }> = {
+  en: { label: "🇬🇧 English", ariaLabel: "English" },
+  es: { label: "🇪🇸 Español", ariaLabel: "Español" },
+  fr: { label: "🇫🇷 Français", ariaLabel: "Français" },
+  la: { label: "✝️ Latina", ariaLabel: "Latina" },
+  el: { label: "🇬🇷 Ελληνικά", ariaLabel: "Ελληνικά" },
+  arc: { label: "🕊️ ܣܘܪܝܝܐ", ariaLabel: "Aramaic / Syriac" },
 };
 
 const NAV_IDS = ["prayers", "rosary", "mercy", "gallery"] as const;
@@ -32,6 +32,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
   const isHome = pathname === "/";
 
   useEffect(() => {
@@ -44,7 +45,7 @@ export default function Navbar() {
     if (isHome) {
       document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     } else {
-      window.location.href = `/#${id}`;
+      router.push(`/#${id}`);
     }
     setMenuOpen(false);
   };
@@ -127,13 +128,14 @@ export default function Navbar() {
                           setLocale(l);
                           setLangOpen(false);
                         }}
+                        aria-label={LOCALE_DISPLAY[l].ariaLabel}
                         className={`block w-full px-5 py-2 text-left text-sm transition-colors duration-150 ${
                           locale === l
                             ? "bg-amber-400/20 text-amber-300"
                             : "text-blue-100 hover:bg-purple-800/40"
                         }`}
                       >
-                        {LOCALE_DISPLAY[l]}
+                        {LOCALE_DISPLAY[l].label}
                       </button>
                     ))}
                   </motion.div>

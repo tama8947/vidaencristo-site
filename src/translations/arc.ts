@@ -1,7 +1,7 @@
 import type { Translations } from "./en";
 
-// Classical Syriac / Aramaic — the language of Jesus
-// Prayers use authentic Syriac text where available; other content uses transliteration
+// Classical Syriac (Eastern Aramaic) — the language of Jesus and the early Syriac Church
+// All content is written in authentic Syriac script (ܐܪܡܝܐ) based on the Peshitta tradition
 const arc: Translations = {
   nav: {
     home: "ܫܘܪܝܐ",
