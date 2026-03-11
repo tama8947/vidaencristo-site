@@ -9,6 +9,8 @@ const PRAYER_ICONS: Record<string, string> = {
   hailMary: "🌹",
   gloryBe: "✨",
   apostlesCreed: "📜",
+  holySpirit: "🕊️",
+  magnificat: "⭐",
 };
 
 const PRAYER_COLORS: Record<string, string> = {
@@ -20,9 +22,13 @@ const PRAYER_COLORS: Record<string, string> = {
     "from-amber-900/60 to-yellow-900/40 border-amber-500/30 hover:border-amber-400/60",
   apostlesCreed:
     "from-purple-900/60 to-violet-900/40 border-purple-500/30 hover:border-purple-400/60",
+  holySpirit:
+    "from-sky-900/60 to-cyan-900/40 border-sky-500/30 hover:border-sky-400/60",
+  magnificat:
+    "from-teal-900/60 to-emerald-900/40 border-teal-500/30 hover:border-teal-400/60",
 };
 
-type PrayerKey = "ourFather" | "hailMary" | "gloryBe" | "apostlesCreed";
+type PrayerKey = "ourFather" | "hailMary" | "gloryBe" | "apostlesCreed" | "holySpirit" | "magnificat";
 
 function PrayerCard({
   prayerKey,
@@ -79,6 +85,8 @@ export default function PrayersSection() {
     { key: "hailMary", data: t.prayers.hailMary },
     { key: "gloryBe", data: t.prayers.gloryBe },
     { key: "apostlesCreed", data: t.prayers.apostlesCreed },
+    { key: "holySpirit", data: t.prayers.holySpirit },
+    { key: "magnificat", data: t.prayers.magnificat },
   ];
 
   return (
@@ -126,7 +134,7 @@ export default function PrayersSection() {
         </motion.div>
 
         {/* Prayer cards grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {prayers.map(({ key, data }, i) => (
             <PrayerCard key={key} prayerKey={key} prayer={data} index={i} />
           ))}

@@ -10,6 +10,7 @@ export default function RosarySection() {
   const { t } = useLanguage();
   const [activeMystery, setActiveMystery] = useState<MysteryKey>("joyful");
   const [showSteps, setShowSteps] = useState(false);
+  const [expandedItem, setExpandedItem] = useState<number | null>(null);
   const headingRef = useRef<HTMLDivElement>(null);
   const headingInView = useInView(headingRef, { once: true });
 
@@ -20,6 +21,12 @@ export default function RosarySection() {
     sorrowful: "🕯️",
     glorious: "👑",
     luminous: "☀️",
+  };
+
+  // Reset expanded item when switching mysteries
+  const handleMysteryChange = (key: MysteryKey) => {
+    setActiveMystery(key);
+    setExpandedItem(null);
   };
 
   return (
@@ -79,7 +86,7 @@ export default function RosarySection() {
             return (
               <button
                 key={key}
-                onClick={() => setActiveMystery(key)}
+                onClick={() => handleMysteryChange(key)}
                 className={`flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-300 ${
                   activeMystery === key
                     ? "bg-gradient-to-r from-purple-700 to-indigo-700 text-white shadow-lg shadow-purple-900/40"
@@ -110,38 +117,69 @@ export default function RosarySection() {
                   className={`relative overflow-hidden rounded-3xl border border-purple-700/30 bg-gradient-to-br p-8 md:p-10 ${mystery.color}`}
                   style={{ boxShadow: "0 0 60px rgba(100,60,200,0.15)" }}
                 >
-                  <div className="flex flex-col md:flex-row gap-8">
-                    {/* Mystery info */}
-                    <div className="flex-1">
-                      <div className="mb-2 flex items-center gap-3">
-                        <span className="text-4xl">{mysteryIcons[activeMystery]}</span>
-                        <div>
-                          <h3 className="text-2xl font-bold text-white">{mystery.name}</h3>
-                          <p className="text-sm text-blue-300/70">{mystery.day}</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Mystery items */}
-                    <div className="flex-1">
-                      <ol className="space-y-3">
-                        {mystery.items.map((item, i) => (
-                          <motion.li
-                            key={i}
-                            initial={{ opacity: 0, x: 20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: i * 0.08 }}
-                            className="flex items-start gap-3"
-                          >
-                            <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 text-xs font-bold text-amber-300">
-                              {i + 1}
-                            </span>
-                            <span className="text-blue-100/85">{item}</span>
-                          </motion.li>
-                        ))}
-                      </ol>
+                  {/* Mystery header */}
+                  <div className="mb-6 flex items-center gap-3">
+                    <span className="text-4xl">{mysteryIcons[activeMystery]}</span>
+                    <div>
+                      <h3 className="text-2xl font-bold text-white">{mystery.name}</h3>
+                      <p className="text-sm text-blue-300/70">{mystery.day}</p>
                     </div>
                   </div>
+
+                  {/* Mystery items — expandable */}
+                  <ol className="space-y-3">
+                    {mystery.items.map((item, i) => (
+                      <motion.li
+                        key={i}
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: i * 0.08 }}
+                      >
+                        <button
+                          onClick={() => setExpandedItem(expandedItem === i ? null : i)}
+                          className="w-full flex items-start gap-3 text-left group"
+                        >
+                          <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 text-xs font-bold text-amber-300">
+                            {i + 1}
+                          </span>
+                          <div className="flex-1">
+                            <span className="text-blue-100/90 font-semibold group-hover:text-white transition-colors duration-200">
+                              {item.name}
+                            </span>
+                            <span
+                              className="ml-2 text-amber-400/70 text-xs transition-transform duration-200 inline-block"
+                              style={{ transform: expandedItem === i ? "rotate(180deg)" : "rotate(0deg)" }}
+                            >
+                              ▼
+                            </span>
+                          </div>
+                        </button>
+
+                        <AnimatePresence>
+                          {expandedItem === i && (
+                            <motion.div
+                              initial={{ opacity: 0, height: 0 }}
+                              animate={{ opacity: 1, height: "auto" }}
+                              exit={{ opacity: 0, height: 0 }}
+                              className="overflow-hidden"
+                            >
+                              <div className="mt-3 ml-9 space-y-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4 backdrop-blur-sm">
+                                <p className="text-sm text-blue-200/80 leading-relaxed italic">
+                                  {item.meditation}
+                                </p>
+                                <p
+                                  className="text-xs text-amber-300/80 leading-relaxed"
+                                  style={{ fontStyle: "italic" }}
+                                >
+                                  {item.verse}
+                                </p>
+                              </div>
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </motion.li>
+                    ))}
+                  </ol>
 
                   {/* Decorative rosary beads */}
                   <div className="mt-8 flex justify-center gap-2 flex-wrap">

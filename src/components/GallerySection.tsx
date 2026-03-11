@@ -3,39 +3,15 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
-import Image from "next/image";
 
-const IMAGES = [
-  {
-    src: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80",
-    alt: "Sacred Heart of Jesus",
-    caption: "Sacred Heart of Jesus",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=600&q=80",
-    alt: "Church interior with light",
-    caption: "Light of Faith",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=600&q=80",
-    alt: "Cross at sunset",
-    caption: "The Cross",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1548625149-720754816194?w=600&q=80",
-    alt: "Candles in church",
-    caption: "Eternal Light",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1475137979732-b349acb6b7e3?w=600&q=80",
-    alt: "Open Bible",
-    caption: "Word of God",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1551292831-023188e78222?w=600&q=80",
-    alt: "Stained glass window",
-    caption: "Sacred Windows",
-  },
+// Placeholder items — images removed, visual style and animations preserved
+const PLACEHOLDERS = [
+  { icon: "✝️", label: "Sagrado Corazón", aspectRatio: "4/3" },
+  { icon: "🕊️", label: "Luz de la Fe", aspectRatio: "1/1" },
+  { icon: "🌹", label: "La Cruz", aspectRatio: "1/1" },
+  { icon: "🕯️", label: "Luz Eterna", aspectRatio: "4/3" },
+  { icon: "📖", label: "Palabra de Dios", aspectRatio: "1/1" },
+  { icon: "⭐", label: "Ventanas Sagradas", aspectRatio: "1/1" },
 ];
 
 export default function GallerySection() {
@@ -89,37 +65,47 @@ export default function GallerySection() {
           </div>
         </motion.div>
 
-        {/* Image grid */}
+        {/* Placeholder grid — images removed, visual style preserved */}
         <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
-          {IMAGES.map((img, i) => (
+          {PLACEHOLDERS.map((item, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group relative overflow-hidden rounded-2xl border border-purple-700/20 cursor-default"
+              className="group relative overflow-hidden rounded-2xl border border-purple-700/20 cursor-default flex items-center justify-center"
               style={{
                 boxShadow: "0 4px 30px rgba(60,30,120,0.2)",
-                aspectRatio: i === 0 ? "4/3" : i === 3 ? "4/3" : "1/1",
+                aspectRatio: item.aspectRatio,
+                background:
+                  "linear-gradient(135deg, rgba(60,30,120,0.25) 0%, rgba(10,2,40,0.6) 100%)",
               }}
             >
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-                sizes="(max-width: 768px) 50vw, 33vw"
-                unoptimized
+              {/* Animated background glow */}
+              <div
+                className="pointer-events-none absolute inset-0 opacity-30 group-hover:opacity-60 transition-opacity duration-500"
+                style={{
+                  background:
+                    "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(100,60,200,0.3), transparent)",
+                }}
               />
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#040011]/80 via-transparent to-transparent" />
+
+              {/* Overlay hover effect */}
               <div className="absolute inset-0 bg-purple-900/0 group-hover:bg-purple-900/20 transition-colors duration-500" />
+
+              {/* Icon */}
+              <span
+                className="relative z-10 text-5xl transition-transform duration-500 group-hover:scale-110"
+                style={{ filter: "drop-shadow(0 0 20px rgba(255,200,80,0.5))" }}
+              >
+                {item.icon}
+              </span>
 
               {/* Caption */}
               <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
-                <p className="text-sm font-semibold text-amber-200 text-shadow">
-                  {img.caption}
+                <p className="text-sm font-semibold text-amber-200">
+                  {item.label}
                 </p>
               </div>
 
