@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useLanguage, type Locale } from "@/context/LanguageContext";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -8,6 +10,18 @@ const LOCALE_LABELS: Record<Locale, string> = {
   en: "EN",
   es: "ES",
   fr: "FR",
+  la: "LA",
+  el: "EL",
+  arc: "ܐܪܡ",
+};
+
+const LOCALE_DISPLAY: Record<Locale, string> = {
+  en: "🇬🇧 English",
+  es: "🇪🇸 Español",
+  fr: "🇫🇷 Français",
+  la: "✝️ Latina",
+  el: "🇬🇷 Ελληνικά",
+  arc: "🕊️ ܣܘܪܝܝܐ",
 };
 
 const NAV_IDS = ["prayers", "rosary", "mercy", "gallery"] as const;
@@ -17,6 +31,8 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -25,7 +41,11 @@ export default function Navbar() {
   }, []);
 
   const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    if (isHome) {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = `/#${id}`;
+    }
     setMenuOpen(false);
   };
 
@@ -50,18 +70,18 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          <Link
+            href="/"
             className="flex items-center gap-2 group"
           >
             <span className="text-2xl">✝️</span>
             <span className="font-bold text-xl tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-100 group-hover:from-amber-200 group-hover:to-white transition-all duration-300">
               Vida en Cristo
             </span>
-          </button>
+          </Link>
 
           {/* Desktop links */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-5">
             {navLinks.map((link) => (
               <button
                 key={link.id}
@@ -72,6 +92,16 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 h-px w-0 bg-amber-400 group-hover:w-full transition-all duration-300" />
               </button>
             ))}
+
+            {/* San José link */}
+            <Link
+              href="/san-jose"
+              className="text-sm font-medium text-amber-300/80 hover:text-amber-200 transition-colors duration-200 relative group flex items-center gap-1"
+            >
+              <span>⚜️</span>
+              <span>{t.nav.sanJose}</span>
+              <span className="absolute -bottom-1 left-0 h-px w-0 bg-amber-400 group-hover:w-full transition-all duration-300" />
+            </Link>
 
             {/* Language switcher */}
             <div className="relative">
@@ -88,7 +118,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, y: -8 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -8 }}
-                    className="absolute right-0 top-10 rounded-xl border border-purple-700/40 bg-[#0d0630]/95 backdrop-blur-sm shadow-xl overflow-hidden"
+                    className="absolute right-0 top-10 rounded-xl border border-purple-700/40 bg-[#0d0630]/95 backdrop-blur-sm shadow-xl overflow-hidden min-w-[160px]"
                   >
                     {(Object.keys(LOCALE_LABELS) as Locale[]).map((l) => (
                       <button
@@ -103,7 +133,7 @@ export default function Navbar() {
                             : "text-blue-100 hover:bg-purple-800/40"
                         }`}
                       >
-                        {l === "en" ? "🇬🇧 English" : l === "es" ? "🇪🇸 Español" : "🇫🇷 Français"}
+                        {LOCALE_DISPLAY[l]}
                       </button>
                     ))}
                   </motion.div>
@@ -142,7 +172,15 @@ export default function Navbar() {
                   {link.label}
                 </button>
               ))}
-              <div className="flex gap-2 pt-2 border-t border-purple-800/30">
+              <Link
+                href="/san-jose"
+                onClick={() => setMenuOpen(false)}
+                className="text-left text-base text-amber-300/80 hover:text-amber-200 py-1 transition-colors flex items-center gap-1"
+              >
+                <span>⚜️</span>
+                <span>{t.nav.sanJose}</span>
+              </Link>
+              <div className="flex flex-wrap gap-2 pt-2 border-t border-purple-800/30">
                 {(Object.keys(LOCALE_LABELS) as Locale[]).map((l) => (
                   <button
                     key={l}
