@@ -319,6 +319,282 @@ Amen.`,
     madeWith: "Fait avec",
     andFaith: "et foi",
   },
+  sanJose: {
+    hero: {
+      subtitle: "Père Adoptif de Jésus · Époux de la Vierge Marie",
+      quote: "« Gardien de la Sainte Famille, Patron de l\\'Église Universelle, modèle de foi, de silence et de travail »",
+    },
+    tabs: {
+      prayers: "Prières",
+      rosario: "Rosaire",
+      novena: "Neuvaine",
+    },
+    prayers: {
+      title: "Prières à Saint Joseph",
+      subtitle: "Confiez-vous au puissant patronage de Saint Joseph",
+      items: [
+        {
+          title: "Prière à Saint Joseph",
+          subtitle: "Patron de l\\'Église Universelle",
+          text: `Ô Saint Joseph, époux de la Vierge Marie
+et père adoptif de Jésus,
+venez à mon secours par votre puissante intercession.
+Vous qui fûtes le fidèle gardien de la Sainte Famille,
+soyez aussi mon protecteur dans les difficultés de la vie.
+
+Guidez mes pas sur le chemin de l'amour et de la justice,
+et obtenez-moi la grâce de vivre toujours
+dans la volonté de Dieu.
+
+Amen.`,
+        },
+        {
+          title: "Consécration à Saint Joseph",
+          subtitle: "Père et Protecteur",
+          text: `Glorieux Saint Joseph,
+patron de l'Église Universelle,
+je me consacre à vous aujourd'hui
+et je me place sous votre protection.
+
+Comme Jésus fut sous votre soin aimant,
+ainsi je me remets entre vos mains avec confiance filiale.
+Soyez mon guide, mon soutien
+et mon intercesseur auprès du Seigneur.
+
+Que votre vie de silence et de travail,
+de foi et d'obéissance totale à Dieu,
+soit le modèle de ma vie chrétienne.
+
+Amen.`,
+        },
+        {
+          title: "Prière pour la Famille",
+          subtitle: "À Saint Joseph, Époux et Père",
+          text: `Saint Joseph, gardien de la Sainte Famille,
+protégez nos familles en ces temps difficiles.
+Que l'amour qui unissait la Sainte Famille
+règne aussi dans nos foyers.
+
+Obtenez-nous de votre Fils Jésus
+la grâce de nous aimer les uns les autres,
+de nous pardonner, de nous servir
+et de marcher ensemble vers le ciel.
+
+Amen.`,
+        },
+        {
+          title: "Prière du Travailleur",
+          subtitle: "Saint Joseph, Patron des Travailleurs",
+          text: `Saint Joseph l'Artisan,
+vous qui avez sanctifié le travail de vos mains,
+bénissez le travail de tous les hommes et de toutes les femmes.
+
+Qu'aucun travailleur ne manque de pain,
+qu'aucune famille ne souffre d'injustice,
+et que le fruit du travail humain
+soit toujours une source de dignité et de joie.
+
+Intercédez pour ceux qui cherchent un emploi,
+pour ceux qui travaillent dans des conditions difficiles,
+et pour tous ceux qui prennent soin de leur famille.
+
+Amen.`,
+        },
+      ],
+    },
+    rosario: {
+      title: "Rosaire de Saint Joseph",
+      subtitle: "Sept Douleurs et Sept Joies",
+      intro: `Le Rosaire de Saint Joseph médite sur les Sept Douleurs et les Sept Joies de ce grand saint.
+Il se récite avec sept groupes de 7 Je vous salue Marie, en méditant sur chaque mystère de la vie de Saint Joseph.
+Chaque dizaine est précédée d'un Notre Père et se termine par un Gloire au Père.`,
+      dolorLabel: "Douleur",
+      gozoLabel: "Joie",
+      closingNote: "Conclure avec le Salve Regina et l\\'invocation suivante :",
+      closingPrayer: "« Saint Joseph, priez pour nous. »",
+      mysteries: [
+        {
+          title: "Premier Mystère",
+          dolor: "Le doute de Saint Joseph sur l\\'origine de la grossesse de Marie",
+          gozo: "L'ange révèle à Saint Joseph que Jésus est le Fils de Dieu",
+          verse: '"Joseph, fils de David, ne crains pas de prendre Marie pour épouse, car ce qui a été engendré en elle vient de l\\'Esprit Saint." — Matthieu 1:20',
+        },
+        {
+          title: "Deuxième Mystère",
+          dolor: "La pauvreté de la crèche de Bethléem",
+          gozo: "La naissance de Jésus, le Sauveur du monde",
+          verse: '"Elle mit au monde son fils premier-né, l\\'emmaillota et le coucha dans une mangeoire." — Luc 2:7',
+        },
+        {
+          title: "Troisième Mystère",
+          dolor: "La prophétie de Siméon sur la douleur de Marie",
+          gozo: "Les prophéties sur Jésus comme lumière des nations",
+          verse: '"Cet enfant est destiné à provoquer la chute et le relèvement de beaucoup." — Luc 2:34',
+        },
+        {
+          title: "Quatrième Mystère",
+          dolor: "La fuite en Égypte pour échapper à Hérode",
+          gozo: "La protection divine sur la Sainte Famille en Égypte",
+          verse: '"Lève-toi, prends l\\'enfant et sa mère, et fuis en Égypte." — Matthieu 2:13',
+        },
+        {
+          title: "Cinquième Mystère",
+          dolor: "L'amertume de l\\'exil en terre étrangère",
+          gozo: "Le retour à la terre promise après la mort d\\'Hérode",
+          verse: '"Lève-toi, prends l\\'enfant et sa mère et retourne en terre d\\'Israël." — Matthieu 2:20',
+        },
+        {
+          title: "Sixième Mystère",
+          dolor: "La perte de l\\'Enfant Jésus à Jérusalem",
+          gozo: "La trouvaille de Jésus dans le Temple parmi les docteurs",
+          verse: '"Ils le trouvèrent dans le Temple, assis au milieu des docteurs de la Loi." — Luc 2:46',
+        },
+        {
+          title: "Septième Mystère",
+          dolor: "La maladie et la mort de Saint Joseph",
+          gozo: "Saint Joseph meurt assisté de Jésus et de Marie, atteignant la gloire éternelle",
+          verse: '"Elle est précieuse aux yeux du Seigneur, la mort de ses fidèles." — Psaume 116:15',
+        },
+      ],
+    },
+    novena: {
+      title: "Neuvaine à Saint Joseph",
+      subtitle: "Neuf jours de prière et de méditation",
+      meditationLabel: "Méditation",
+      prayerLabel: "Prière du jour",
+      finalPrayerTitle: "Prière Finale de la Neuvaine",
+      finalPrayer: "« Ô Saint Joseph, dont la protection est si grande, si forte, si prompte devant le trône de Dieu, je vous confie tous mes intérêts et désirs. Ô Saint Joseph, assistez-moi par votre puissante intercession et obtenez de votre Divin Fils toutes les grâces spirituelles et temporelles dont j\\'ai besoin. Amen. »",
+      days: [
+        {
+          title: "Jour 1 — La Vocation de Saint Joseph",
+          meditation: "Saint Joseph, choisi par Dieu de toute éternité pour être l'époux de Marie et le père adoptif de Jésus. Méditez sur la grandeur de sa vocation et demandez à Dieu de vous aider à découvrir la vôtre.",
+          prayer: `Ô Saint Joseph, vous avez été appelé par Dieu pour une mission unique dans l'histoire du salut.
+Aidez-moi à connaître et à aimer ma propre vocation,
+à répondre avec le même «oui» généreux que vous avez donné
+lorsque l'ange vous a révélé le mystère.
+
+Que je puisse aussi dire avec foi : « Que ta volonté soit faite. »
+
+Amen.`,
+        },
+        {
+          title: "Jour 2 — La Foi de Saint Joseph",
+          meditation: "Saint Joseph a cru sans voir, a fait confiance sans comprendre. Sa foi en Dieu a été mise à l'épreuve et purifiée. Demandez la grâce d'une foi forte qui ne vacille pas devant les difficultés.",
+          prayer: `Saint Joseph, homme de foi profonde,
+vous avez cru la parole de l'ange
+et avez agi sans hésiter.
+Donnez-moi une foi ferme et confiante
+qui me soutienne dans mes moments d'obscurité.
+
+Quand je ne comprends pas le chemin de Dieu dans ma vie,
+aidez-moi à croire et à avancer avec confiance.
+
+Amen.`,
+        },
+        {
+          title: "Jour 3 — La Pureté de Saint Joseph",
+          meditation: "Saint Joseph, l'«homme juste», a vécu avec une parfaite pureté de cœur. Son amour pour Marie était sacré et fidèle. Demandez la grâce de la pureté en pensées, paroles et actions.",
+          prayer: `Saint Joseph très chaste,
+modèle de pureté et de droiture,
+intercédez pour moi afin que mon cœur soit pur
+et que mes actions reflètent l'amour de Dieu.
+
+Protégez mon âme et celle de ma famille
+de tout ce qui éloigne de Dieu.
+
+Amen.`,
+        },
+        {
+          title: "Jour 4 — Le Travail de Saint Joseph",
+          meditation: "Saint Joseph a sanctifié le travail de ses mains. Charpentier de Nazareth, il a appris à Jésus la valeur du travail honnête. Demandez la grâce de travailler avec amour et dignité.",
+          prayer: `Saint Joseph l'Artisan,
+sanctifiez mon travail quotidien
+et celui de toutes les personnes qui travaillent honnêtement.
+Que je trouve dans le travail
+non seulement la subsistance du corps
+mais aussi de l'âme.
+
+Intercédez pour ceux qui n'ont pas de travail
+et pour ceux qui souffrent d'exploitation.
+
+Amen.`,
+        },
+        {
+          title: "Jour 5 — Le Silence de Saint Joseph",
+          meditation: "Dans les Évangiles, Saint Joseph ne parle jamais. Sa vie fut un témoignage d'action silencieuse au service de Dieu. Demandez la grâce du silence intérieur pour écouter Dieu.",
+          prayer: `Saint Joseph du silence sacré,
+apprenez-moi à écouter avant de parler,
+à prier avant d'agir,
+à faire confiance avant de vouloir comprendre.
+
+Dans le bruit de ce monde,
+aidez-moi à trouver le silence intérieur
+où Dieu parle à mon cœur.
+
+Amen.`,
+        },
+        {
+          title: "Jour 6 — L'Obéissance de Saint Joseph",
+          meditation: "Saint Joseph a obéi à Dieu chaque fois que l'ange lui a parlé : en accueillant Marie, en fuyant en Égypte, en retournant en Israël. Son obéissance a sauvé la vie du Sauveur. Demandez la grâce de l'obéissance à Dieu.",
+          prayer: `Saint Joseph obéissant,
+vous vous êtes levé chaque fois que Dieu vous a appelé,
+sans questionner, sans hésiter, sans tarder.
+Donnez-moi la grâce d'obéir à Dieu
+en toute circonstance de ma vie,
+surtout quand je ne comprends pas ses voies.
+
+Que ma volonté se plie toujours
+devant la volonté divine.
+
+Amen.`,
+        },
+        {
+          title: "Jour 7 — La Tendresse de Saint Joseph",
+          meditation: "Saint Joseph a aimé Jésus avec la tendresse d'un vrai père. Il l'a protégé, nourri, appris à travailler. Son amour était concret et fidèle. Demandez la grâce de l'amour familial.",
+          prayer: `Saint Joseph, père aimant,
+vous qui avez pris soin de Jésus avec des mains fortes et un cœur tendre,
+intercédez pour les pères et les mères du monde.
+
+Que nos foyers soient des écoles d'amour,
+que les enfants grandissent en sécurité et aimés,
+et que les familles soient le premier reflet
+de l'amour de Dieu dans le monde.
+
+Amen.`,
+        },
+        {
+          title: "Jour 8 — Saint Joseph, Protecteur de l'Église",
+          meditation: "Le Pape Pie IX a proclamé Saint Joseph Patron de l'Église Universelle. Il a protégé le Corps du Christ à Nazareth ; maintenant il protège le Corps du Christ qui est l'Église. Demandez la grâce d'aimer et de servir l'Église.",
+          prayer: `Saint Joseph, gardien de la Sainte Église,
+le Corps Mystique du Christ est sous votre protection.
+Intercédez pour le Pape, les évêques, les prêtres
+et tous les fidèles.
+
+Protégez l'Église des attaques du mal,
+renouvelez sa sainteté
+et aidez-la à être toujours un signe de l'amour de Dieu pour le monde.
+
+Amen.`,
+        },
+        {
+          title: "Jour 9 — Saint Joseph, Patron de la Bonne Mort",
+          meditation: "Saint Joseph est mort dans les bras de Jésus et de Marie. C'est pourquoi il est invoqué comme patron de la bonne mort. Demandez la grâce de mourir dans la grâce de Dieu, assisté de l'amour de Marie et de l'Église.",
+          prayer: `Saint Joseph, patron de la bonne mort,
+vous qui avez fermé les yeux au monde
+dans les bras de Jésus et de Marie,
+obtenez-moi la grâce de persévérer dans la foi
+jusqu'à la fin de ma vie.
+
+Quand mon heure viendra,
+que vous me trouviez en état de grâce,
+et que ce soit vous qui m'accompagniez
+dans la présence de Dieu.
+
+Amen.`,
+        },
+      ],
+    },
+  },
 };
 
 export default fr;
