@@ -9,6 +9,7 @@ const it: Translations = {
     mercy: "Opere di Misericordia",
     gallery: "Galleria",
     sanJose: "San Giuseppe",
+    catechism: "Catechismo",
   },
   hero: {
     tagline: "Vita in Cristo",
@@ -592,6 +593,161 @@ Amen.`,
         },
       ],
     },
+  },
+  catechism: {
+    title: "Catechismo della Chiesa Cattolica",
+    subtitle: "I quattro pilastri della fede",
+    intro:
+      "Il Catechismo della Chiesa Cattolica (CCC), pubblicato nel 1992 da Papa Giovanni Paolo II, è il compendio ufficiale della dottrina della Chiesa. È organizzato in quattro grandi pilastri che abbracciano la totalità della vita cristiana.",
+    sourceLabel: "CCC",
+    closingQuote: `«Ascolta, Israele: il Signore Dio nostro è l'unico Signore. Amerai il Signore tuo Dio con tutto il tuo cuore e con tutta la tua anima, con tutta la tua mente e con tutta la tua forza.»`,
+    closingQuoteRef: "— Marco 12:29-30 · CCC 2196",
+    pillars: [
+      {
+        id: "credo",
+        icon: "✝️",
+        color: "amber",
+        title: "La Professione della Fede",
+        subtitle: "Ciò che crediamo",
+        intro:
+          "Il primo pilastro espone il Simbolo degli Apostoli — i grandi simboli della fede che riassumono il mistero di Dio: Padre, Figlio e Spirito Santo, e la sua opera di creazione e salvezza.",
+        items: [
+          {
+            number: "CCC 26",
+            title: "La Capacità Umana di Dio",
+            text: `«La vita dell'uomo con Dio inizia nel momento in cui questi si rende conto di essere stato fatto a immagine di Dio, orientato verso la pienezza della vita con Lui. Dio non smette di attirare l'uomo a Sé, e solo in Dio l'uomo troverà la verità e la felicità che non smette mai di cercare.»`,
+          },
+          {
+            number: "CCC 234",
+            title: "Il Mistero della Santissima Trinità",
+            text: `«Il mistero della Santissima Trinità è il mistero centrale della fede e della vita cristiana. È il mistero di Dio in se stesso. È quindi la fonte di tutti gli altri misteri della fede, la luce che li illumina.»`,
+          },
+          {
+            number: "CCC 456",
+            title: "Perché il Verbo Si è Fatto Carne?",
+            text: `«Con il Credo di Nicea rispondiamo confessando: "Per noi uomini e per la nostra salvezza discese dal cielo; e per opera dello Spirito Santo si è incarnato nel seno della Vergine Maria e si è fatto uomo." Il Verbo si è fatto carne per noi al fine di salvarci riconciliandoci con Dio.»`,
+          },
+          {
+            number: "CCC 748",
+            title: "Cristo — Luce delle Nazioni",
+            text: `«Cristo è la luce di tutti i popoli. Questo sacrosanto Concilio, radunato nello Spirito Santo, desidera ardentemente illuminare tutti gli uomini con la luce di Cristo, che risplende sul volto della Chiesa, annunciando il Vangelo ad ogni creatura.»`,
+          },
+          {
+            number: "CCC 988",
+            title: "La Risurrezione della Carne",
+            text: `«Il Credo cristiano — professione della nostra fede in Dio Padre, Figlio e Spirito Santo — culmina nella proclamazione della risurrezione dei morti alla fine dei tempi e nella vita eterna.»`,
+          },
+        ],
+      },
+      {
+        id: "sacramenti",
+        icon: "🕊️",
+        color: "blue",
+        title: "I Sacramenti",
+        subtitle: "Come celebriamo la fede",
+        intro:
+          "I sette sacramenti sono i segni efficaci della grazia istituiti da Cristo e affidati alla Chiesa. Per mezzo di essi ci viene dispensata la vita divina. Abbracciano tutte le tappe e tutti i momenti importanti della vita cristiana.",
+        items: [
+          {
+            number: "CCC 1113",
+            title: "I Sacramenti di Cristo",
+            text: `«Tutta la vita liturgica della Chiesa gravita intorno al sacrificio eucaristico e ai sacramenti. Nella Chiesa ci sono sette sacramenti: il Battesimo, la Confermazione o Crismazione, l'Eucaristia, la Penitenza, l'Unzione degli infermi, l'Ordine e il Matrimonio.»`,
+          },
+          {
+            number: "CCC 1213",
+            title: "Il Battesimo — Porta della Vita",
+            text: `«Il santo Battesimo è il fondamento di tutta la vita cristiana, il portico della vita nello Spirito e la porta che apre l'accesso agli altri sacramenti. Per mezzo del Battesimo siamo liberati dal peccato e rigenerati come figli di Dio, diventiamo membra di Cristo, siamo incorporati alla Chiesa.»`,
+          },
+          {
+            number: "CCC 1322",
+            title: "L'Eucaristia — Fonte e Vertice",
+            text: `«La santa Eucaristia porta a compimento l'iniziazione cristiana. Coloro che sono stati elevati alla dignità del sacerdozio regale mediante il Battesimo e configurati più profondamente a Cristo dalla Confermazione, partecipano per mezzo dell'Eucaristia con tutta la comunità al sacrificio stesso del Signore.»`,
+          },
+          {
+            number: "CCC 1440",
+            title: "Penitenza e Riconciliazione",
+            text: `«Il peccato è prima di tutto un'offesa a Dio, una rottura della comunione con Lui. Al tempo stesso lede la comunione con la Chiesa. Per questo motivo la conversione implica sia il perdono di Dio sia la riconciliazione con la Chiesa, che sono espressi e realizzati liturgicamente dal sacramento della Penitenza e della Riconciliazione.»`,
+          },
+          {
+            number: "CCC 1601",
+            title: "Il Matrimonio nel Piano di Dio",
+            text: `«L'alleanza matrimoniale con cui l'uomo e la donna costituiscono tra loro un'intima comunità di vita e d'amore, è stata fondata e dotata delle sue leggi proprie dal Creatore. Per sua natura è ordinata al bene dei coniugi e alla generazione ed educazione della prole ed è stata elevata dal Cristo Signore alla dignità di sacramento.»`,
+          },
+        ],
+      },
+      {
+        id: "vita",
+        icon: "🌿",
+        color: "green",
+        title: "La Vita in Cristo",
+        subtitle: "Come viviamo la fede",
+        intro:
+          "Il terzo pilastro presenta la vocazione ultima dell'uomo: la beatitudine. Traccia il cammino di tale vocazione attraverso i Dieci Comandamenti, le Beatitudini e le virtù che conducono a una vita degna del Vangelo.",
+        items: [
+          {
+            number: "CCC 1716",
+            title: "Le Beatitudini",
+            text: `«Le Beatitudini sono al cuore della predicazione di Gesù. Riprendono e completano le promesse fatte al popolo eletto fin da Abramo. Le Beatitudini le portano a compimento ordinandole non più alla sola possessione di un territorio, ma al Regno dei cieli.»`,
+          },
+          {
+            number: "CCC 1803",
+            title: "Le Virtù Umane",
+            text: `«La virtù è una disposizione abituale e ferma a fare il bene. Permette alla persona non solo di compiere atti buoni, ma di dare il meglio di se stessa. La persona virtuosa tende verso il bene con tutte le sue potenze sensoriali e spirituali.»`,
+          },
+          {
+            number: "CCC 1858",
+            title: "I Dieci Comandamenti",
+            text: `«I Dieci Comandamenti enunciano ciò che l'amore di Dio e l'amore del prossimo implicano. I primi tre riguardano più direttamente l'amore di Dio, e gli altri sette l'amore del prossimo. Come la carità comprende i due comandamenti ai quali il Signore ha collegato "tutta la Legge e i Profeti", così il Decalogo forma un'unità organica.»`,
+          },
+          {
+            number: "CCC 2052",
+            title: "«Maestro, che cosa devo fare?»",
+            text: `«"Va', vendi quello che possiedi, dallo ai poveri e avrai un tesoro nei cieli; poi vieni e seguimi." Questo passo mette in luce che la via della perfezione passa attraverso la croce. C'è un legame inscindibile tra il seguire Gesù e i Comandamenti.»`,
+          },
+          {
+            number: "CCC 2196",
+            title: "La Dottrina Sociale della Chiesa",
+            text: `«Interrogato sul primo dei comandamenti, Gesù risponde: "Il primo è: Ascolta, Israele! Il Signore Dio nostro è l'unico Signore; amerai il Signore tuo Dio con tutto il tuo cuore e con tutta la tua anima, con tutta la tua mente e con tutta la tua forza. Il secondo è questo: Amerai il tuo prossimo come te stesso."»`,
+          },
+        ],
+      },
+      {
+        id: "preghiera",
+        icon: "🙏",
+        color: "purple",
+        title: "La Preghiera Cristiana",
+        subtitle: "Come parliamo con Dio",
+        intro:
+          "Il quarto pilastro rivela il senso e l'importanza della preghiera nella vita del cristiano. Presenta il Padre Nostro come modello e vertice di tutta la preghiera cristiana, commentando ciascuna delle sue richieste.",
+        items: [
+          {
+            number: "CCC 2558",
+            title: "Che cos'è la Preghiera?",
+            text: `«"Grande è il mistero della fede!" La Chiesa lo professa nel Simbolo degli Apostoli e lo celebra nella liturgia sacramentale, affinché la vita dei fedeli sia conformata a Cristo nello Spirito Santo per la gloria di Dio Padre. Questo mistero esige che i fedeli vi credano, lo celebrino e ne vivano in una relazione viva e personale con il Dio vivo e vero. Questa relazione è la preghiera.»`,
+          },
+          {
+            number: "CCC 2607",
+            title: "Gesù Ci Insegna a Pregare",
+            text: `«Quando Gesù prega, ci insegna già come pregare. La sua preghiera al Padre è il cammino teologico della nostra preghiera a Dio. Ma i Vangeli contengono anche un insegnamento esplicito di Gesù sulla preghiera. Come un saggio Maestro, ci prende dove siamo e ci conduce progressivamente verso il Padre.»`,
+          },
+          {
+            number: "CCC 2759",
+            title: "Il Padre Nostro",
+            text: `«Gesù "stava pregando in un luogo; quando ebbe finito, uno dei suoi discepoli gli disse: Signore, insegnaci a pregare." In risposta a questa richiesta il Signore affida ai suoi discepoli e alla sua Chiesa la fondamentale preghiera cristiana. San Luca presenta un testo breve di cinque richieste; San Matteo una versione più sviluppata di sette richieste.»`,
+          },
+          {
+            number: "CCC 2761",
+            title: "Sommario di tutto il Vangelo",
+            text: `«Il Padre Nostro è veramente "il sommario di tutto il Vangelo". "Poiché il Signore, dopo averci consegnato questa formula di preghiera, ha aggiunto altrove: Chiedete e riceverete; e poiché ognuno ha richieste particolari alla propria condizione, questa preghiera comune è stata insegnata per prima come fondamento dei desideri ulteriori."»`,
+          },
+          {
+            number: "CCC 2644",
+            title: "Le Forme di Preghiera",
+            text: `«Lo Spirito Santo che insegna alla Chiesa e le ricorda tutto ciò che Gesù ha detto, la educa anche alla vita di preghiera suscitando espressioni che rinnovano le forme fondamentali della preghiera: benedizione e adorazione, supplica, intercessione, ringraziamento e lode.»`,
+          },
+        ],
+      },
+    ],
   },
 };
 

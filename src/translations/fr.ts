@@ -8,6 +8,7 @@ const fr: Translations = {
     mercy: "Œuvres de Miséricorde",
     gallery: "Galerie",
     sanJose: "Saint Joseph",
+    catechism: "Catéchisme",
   },
   hero: {
     tagline: "Vida en Cristo",
@@ -594,6 +595,161 @@ Amen.`,
         },
       ],
     },
+  },
+  catechism: {
+    title: "Catéchisme de l'Église Catholique",
+    subtitle: "Les quatre piliers de la foi",
+    intro:
+      "Le Catéchisme de l'Église Catholique (CEC), publié en 1992 par le Pape Jean-Paul II, est le compendium officiel de la doctrine de l'Église. Il est organisé en quatre grands piliers qui embrassent la totalité de la vie chrétienne.",
+    sourceLabel: "CEC",
+    closingQuote: `«Écoute, Israël: le Seigneur notre Dieu est l'unique Seigneur. Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de tout ton esprit et de toute ta force.»`,
+    closingQuoteRef: "— Marc 12:29-30 · CEC 2196",
+    pillars: [
+      {
+        id: "credo",
+        icon: "✝️",
+        color: "amber",
+        title: "La Profession de Foi",
+        subtitle: "Ce que nous croyons",
+        intro:
+          "Le premier pilier expose le Symbole des Apôtres — les grands symboles de la foi qui résument le mystère de Dieu: Père, Fils et Saint-Esprit, et son œuvre de création et de salut.",
+        items: [
+          {
+            number: "CEC 26",
+            title: "La Capacité Humaine de Dieu",
+            text: `«La vie de l'homme avec Dieu commence au moment où celui-ci se rend compte qu'il a été fait à l'image de Dieu, orienté vers la plénitude de la vie avec Lui. Dieu ne cesse d'attirer l'homme vers Lui, et c'est seulement en Dieu que l'homme trouvera la vérité et le bonheur qu'il ne cesse de chercher.»`,
+          },
+          {
+            number: "CEC 234",
+            title: "Le Mystère de la Sainte Trinité",
+            text: `«Le mystère de la Très Sainte Trinité est le mystère central de la foi et de la vie chrétiennes. Il est le mystère de Dieu en Lui-même. Il est donc la source de tous les autres mystères de la foi, la lumière qui les illumine.»`,
+          },
+          {
+            number: "CEC 456",
+            title: "Pourquoi le Verbe S'est-il Fait Chair?",
+            text: `«Avec le Credo de Nicée, nous répondons en confessant: "Pour nous les hommes et pour notre salut, Il est descendu des cieux; par l'Esprit Saint, Il a pris chair de la Vierge Marie et s'est fait homme." Le Verbe s'est fait chair pour nous afin de nous sauver en nous réconciliant avec Dieu.»`,
+          },
+          {
+            number: "CEC 748",
+            title: "Le Christ — Lumière des Nations",
+            text: `«Le Christ est la lumière de tous les peuples. Ce saint Concile, assemblé dans l'Esprit Saint, désire ardemment éclairer tous les hommes par la lumière du Christ qui resplendit sur le visage de l'Église, en annonçant l'Évangile à toute créature.»`,
+          },
+          {
+            number: "CEC 988",
+            title: "La Résurrection de la Chair",
+            text: `«Le Credo chrétien — profession de notre foi en Dieu Père, Fils et Saint-Esprit, et en son action créatrice, salvatrice et sanctificatrice — culmine dans la proclamation de la résurrection des morts à la fin des temps et dans la vie éternelle.»`,
+          },
+        ],
+      },
+      {
+        id: "sacrements",
+        icon: "🕊️",
+        color: "blue",
+        title: "Les Sacrements",
+        subtitle: "Comment nous célébrons la foi",
+        intro:
+          "Les sept sacrements sont les signes efficaces de la grâce institués par le Christ et confiés à l'Église. Par eux nous est dispensée la vie divine. Ils jalonnent toutes les étapes et tous les moments importants de la vie chrétienne.",
+        items: [
+          {
+            number: "CEC 1113",
+            title: "Les Sacrements du Christ",
+            text: `«Toute la vie liturgique de l'Église gravite autour du sacrifice eucharistique et des sacrements. L'Église compte sept sacrements: le Baptême, la Confirmation ou Chrismation, l'Eucharistie, la Pénitence, l'Onction des malades, l'Ordre et le Mariage.»`,
+          },
+          {
+            number: "CEC 1213",
+            title: "Le Baptême — Porte de la Vie",
+            text: `«Le saint Baptême est le fondement de toute la vie chrétienne, le porche de la vie dans l'Esprit et la porte qui ouvre l'accès aux autres sacrements. Par le Baptême, nous sommes libérés du péché et régénérés comme enfants de Dieu, nous devenons membres du Christ, nous sommes incorporés à l'Église.»`,
+          },
+          {
+            number: "CEC 1322",
+            title: "L'Eucharistie — Source et Sommet",
+            text: `«La sainte Eucharistie achève l'initiation chrétienne. Ceux qui ont été élevés à la dignité du sacerdoce royal par le Baptême et configurés plus profondément au Christ par la Confirmation, participent par l'Eucharistie avec toute la communauté au sacrifice même du Seigneur.»`,
+          },
+          {
+            number: "CEC 1440",
+            title: "Pénitence et Réconciliation",
+            text: `«Le péché est avant tout une offense envers Dieu, une rupture de la communion avec Lui. En même temps, il porte atteinte à la communion avec l'Église. C'est pourquoi la conversion implique à la fois le pardon de Dieu et la réconciliation avec l'Église, qui sont exprimés et accomplis liturgiquement par le sacrement de la Pénitence et de la Réconciliation.»`,
+          },
+          {
+            number: "CEC 1601",
+            title: "Le Mariage dans le Plan de Dieu",
+            text: `«L'alliance matrimoniale, par laquelle un homme et une femme constituent entre eux une intime communauté de vie et d'amour, a été fondée et dotée de ses lois propres par le Créateur. Elle a été élevée par le Christ Seigneur à la dignité de sacrement.»`,
+          },
+        ],
+      },
+      {
+        id: "vie",
+        icon: "🌿",
+        color: "green",
+        title: "La Vie en Christ",
+        subtitle: "Comment nous vivons la foi",
+        intro:
+          "Le troisième pilier présente la vocation ultime de l'homme: la béatitude. Il trace le chemin de cette vocation à travers les Dix Commandements, les Béatitudes et les vertus qui conduisent à une vie digne de l'Évangile.",
+        items: [
+          {
+            number: "CEC 1716",
+            title: "Les Béatitudes",
+            text: `«Les Béatitudes sont au cœur de la prédication de Jésus. Elles reprennent et accomplissent les promesses faites au peuple élu depuis Abraham. Les Béatitudes les accomplissent en les ordonnant non plus à la seule possession d'un territoire, mais au Royaume des cieux.»`,
+          },
+          {
+            number: "CEC 1803",
+            title: "Les Vertus Humaines",
+            text: `«La vertu est une disposition habituelle et ferme à faire le bien. Elle permet à la personne non seulement d'accomplir des actes bons, mais de donner le meilleur d'elle-même. La personne vertueuse tend vers le bien avec toutes ses puissances sensorielles et spirituelles.»`,
+          },
+          {
+            number: "CEC 1858",
+            title: "Les Dix Commandements",
+            text: `«Les dix commandements énoncent ce que l'amour de Dieu et l'amour du prochain impliquent. Les trois premiers commandements concernent davantage l'amour de Dieu, et les sept autres l'amour du prochain. Comme la charité comprend les deux commandements auxquels le Seigneur a rattaché "toute la Loi et les Prophètes", ainsi le Décalogue forme une unité organique.»`,
+          },
+          {
+            number: "CEC 2052",
+            title: "«Maître, que dois-je faire?»",
+            text: `«"Va, vends ce que tu possèdes et donne-le aux pauvres, et tu auras un trésor dans les cieux; puis viens, suis-moi." Ce passage met en lumière que la voie de la perfection passe par la croix. Il y a un lien indissoluble entre le fait de suivre Jésus et les Commandements.»`,
+          },
+          {
+            number: "CEC 2196",
+            title: "La Doctrine Sociale de l'Église",
+            text: `«En réponse à la question sur le premier des commandements, Jésus dit: "Le premier est: Écoute, Israël: le Seigneur notre Dieu est l'unique Seigneur. Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme, de tout ton esprit et de toute ta force. Voici le second: Tu aimeras ton prochain comme toi-même."»`,
+          },
+        ],
+      },
+      {
+        id: "priere",
+        icon: "🙏",
+        color: "purple",
+        title: "La Prière Chrétienne",
+        subtitle: "Comment nous parlons à Dieu",
+        intro:
+          "Le quatrième pilier révèle le sens et l'importance de la prière dans la vie du chrétien. Il présente le Notre Père comme modèle et sommet de toute prière chrétienne, commentant chacune de ses demandes.",
+        items: [
+          {
+            number: "CEC 2558",
+            title: "Qu'est-ce que la Prière?",
+            text: `«"Grand est le mystère de la foi!" L'Église le professe dans le Symbole des Apôtres et le célèbre dans la liturgie sacramentelle, afin que la vie des fidèles soit conformée au Christ dans l'Esprit Saint pour la gloire de Dieu le Père. Ce mystère exige que les fidèles y croient, le célèbrent et en vivent dans une relation vivante et personnelle avec le Dieu vivant et vrai. Cette relation est la prière.»`,
+          },
+          {
+            number: "CEC 2607",
+            title: "Jésus Nous Apprend à Prier",
+            text: `«Lorsque Jésus prie, Il nous enseigne déjà comment prier. Sa prière au Père est le chemin théologique de notre prière à Dieu. Mais les Évangiles contiennent aussi un enseignement explicite de Jésus sur la prière. Comme un sage Maître, il nous prend là où nous sommes et nous conduit progressivement vers le Père.»`,
+          },
+          {
+            number: "CEC 2759",
+            title: "Le Notre Père",
+            text: `«Jésus "priait en un certain lieu et, quand il eut terminé, l'un de ses disciples lui dit: Seigneur, apprends-nous à prier." En réponse à cette demande, le Seigneur confie à ses disciples et à son Église la prière chrétienne fondamentale. Saint Luc présente un texte bref de cinq demandes; saint Matthieu, une version plus développée de sept demandes.»`,
+          },
+          {
+            number: "CEC 2761",
+            title: "Résumé de tout l'Évangile",
+            text: `«Le Notre Père est vraiment "le résumé de tout l'Évangile". "Puisque le Seigneur, après nous avoir remis la formule de prière, a dit ailleurs: Demandez et vous recevrez, et puisque chacun a des pétitions qui lui sont particulières, la prière ordinaire et commune est dite d'abord, comme fondement de nos désirs ultérieurs."»`,
+          },
+          {
+            number: "CEC 2644",
+            title: "Les Formes de Prière",
+            text: `«L'Esprit Saint qui enseigne à l'Église et lui rappelle tout ce que Jésus a dit, l'éduque aussi à la vie de prière en suscitant des expressions qui renouvellent les formes essentielles de la prière: bénédiction et adoration, demande, intercession, action de grâce et louange.»`,
+          },
+        ],
+      },
+    ],
   },
 };
 

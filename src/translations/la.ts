@@ -8,6 +8,7 @@ const la: Translations = {
     mercy: "Opera Misericordiae",
     gallery: "Imagines",
     sanJose: "Sanctus Ioseph",
+    catechism: "Catechismus",
   },
   hero: {
     tagline: "Vita in Christo",
@@ -591,6 +592,161 @@ Amen.`,
         },
       ],
     },
+  },
+  catechism: {
+    title: "Catechismus Ecclesiae Catholicae",
+    subtitle: "Quattuor columnae fidei",
+    intro:
+      "Catechismus Ecclesiae Catholicae (CEC), anno 1992 a Ioanne Paulo II editus, est compendium officiale doctrinae Ecclesiae. Dividitur in quattuor columnas magnas quae totam vitam christianam complectuntur.",
+    sourceLabel: "CEC",
+    closingQuote: `«Audi, Israel: Dominus Deus noster, Dominus unus est; et diliges Dominum Deum tuum ex toto corde tuo et ex tota anima tua et ex tota mente tua et ex tota virtute tua.»`,
+    closingQuoteRef: "— Marcum 12:29-30 · CEC 2196",
+    pillars: [
+      {
+        id: "symbolum",
+        icon: "✝️",
+        color: "amber",
+        title: "Professio Fidei",
+        subtitle: "Quod credimus",
+        intro:
+          "Prima columna Symbolum Apostolorum exponit — magna symbola fidei quae mysterium Dei Patris, Filii et Spiritus Sancti summarie continent.",
+        items: [
+          {
+            number: "CEC 26",
+            title: "Capacitas Hominis ad Deum",
+            text: `«Vita hominis cum Deo incipit eo momento quo homo se ad imaginem Dei factum esse intelligit, ordinatum ad plenitudinem vitae cum Eo. Deus hominem ad Se attrahere non desinit, et solum in Deo homo veritatem et felicitatem inveniet quam sine intermissione quaerit.»`,
+          },
+          {
+            number: "CEC 234",
+            title: "Mysterium Sanctissimae Trinitatis",
+            text: `«Mysterium Sanctissimae Trinitatis est mysterium centrale fidei et vitae christianae. Est mysterium Dei in Seipso. Est igitur fons omnium aliorum mysteriorum fidei, lux quae ea illuminat.»`,
+          },
+          {
+            number: "CEC 456",
+            title: "Cur Verbum Caro Factum Est?",
+            text: `«In Symbolo Nicaeno respondemus confitentes: "Propter nos homines et propter nostram salutem descendit de caelis; et incarnatus est de Spiritu Sancto ex Maria Virgine et homo factus est." Verbum caro factum est propter nos ut nos salvaret nos Deo reconcilians.»`,
+          },
+          {
+            number: "CEC 988",
+            title: "Resurrectio Carnis",
+            text: `«Symbolum christianum — professio fidei nostrae in Deum Patrem, Filium et Spiritum Sanctum — culminat in proclamatione resurrectionis mortuorum in fine temporum et vitae aeternae.»`,
+          },
+          {
+            number: "CEC 748",
+            title: "Christus — Lux Gentium",
+            text: `«Christus est lux gentium. Hoc Sacrosanctum Concilium, in Spiritu Sancto congregatum, omnes homines luce Christi illuminare ardenter desiderat, quae in facie Ecclesiae splendet, Evangelium omni creaturae praedicando.»`,
+          },
+        ],
+      },
+      {
+        id: "sacramenta",
+        icon: "🕊️",
+        color: "blue",
+        title: "Sacramenta",
+        subtitle: "Quomodo fidem celebramus",
+        intro:
+          "Septem sacramenta sunt signa efficacia gratiae a Christo instituta et Ecclesiae concredita. Per ea nobis vita divina dispensatur. Omnes periodos et omnia momenta vitae christianae complectuntur.",
+        items: [
+          {
+            number: "CEC 1113",
+            title: "Sacramenta Christi",
+            text: `«Tota vita liturgica Ecclesiae circa sacrificium eucharisticum et sacramenta versatur. In Ecclesia sunt septem sacramenta: Baptismus, Confirmatio seu Chrismatio, Eucharistia, Paenitentia, Unctio infirmorum, Ordo et Matrimonium.»`,
+          },
+          {
+            number: "CEC 1213",
+            title: "Baptismus — Porta Vitae",
+            text: `«Baptismus sanctus est fundamentum totius vitae christianae, porticus vitae in Spiritu et porta quae accessum ad alia sacramenta aperit. Per Baptismum a peccato liberamur et quasi filii Dei regeneramur, membra Christi efficimur, Ecclesiae incorporamur.»`,
+          },
+          {
+            number: "CEC 1322",
+            title: "Eucharistia — Fons et Culmen",
+            text: `«Eucharistia sacra initiationem christianam perficit. Qui ad dignitatem sacerdotii regalis per Baptismum elevati et per Confirmationem Christo profundius configurati sunt, per Eucharistiam cum tota communitate in ipso sacrificio Domini participant.»`,
+          },
+          {
+            number: "CEC 1440",
+            title: "Paenitentia et Reconciliatio",
+            text: `«Peccatum est primario offensa in Deum, ruptura communionis cum Eo. Simul nocet communioni cum Ecclesia. Quapropter conversio implicat et Dei veniam et reconciliationem cum Ecclesia, quae liturgice exprimuntur et perficiuntur per sacramentum Paenitentiae et Reconciliationis.»`,
+          },
+          {
+            number: "CEC 1601",
+            title: "Matrimonium in Consilio Dei",
+            text: `«Foedus matrimoniale, quo vir et mulier inter se consortium totius vitae constituunt, indole sua naturali ad bonum coniugum atque ad prolis procreationem et educationem ordinatum, a Christo Domino ad sacramenti dignitatem inter baptizatos evectum est.»`,
+          },
+        ],
+      },
+      {
+        id: "vita",
+        icon: "🌿",
+        color: "green",
+        title: "Vita in Christo",
+        subtitle: "Quomodo fidem vivimus",
+        intro:
+          "Tertia columna praesentat ultimam vocationem hominis: beatitudinem. Iter huius vocationis per Decem Praecepta, Beatitudines et virtutes tractat.",
+        items: [
+          {
+            number: "CEC 1716",
+            title: "Beatitudines",
+            text: `«Beatitudines sunt in corde praedicationis Iesu. Reprehendunt et implent promissiones populo electo ab Abraham factas. Beatitudines eas implent ordinando eas non iam ad solam possessionem territorii, sed ad Regnum caelorum.»`,
+          },
+          {
+            number: "CEC 1803",
+            title: "Virtutes Humanae",
+            text: `«Virtus est dispositio habitualis et firma ad bonum faciendum. Permittit personae non solum actus bonos peragere, sed optimum sui praebere. Persona virtuosa ad bonum tendit omnibus viribus suis sensualibus et spiritualibus.»`,
+          },
+          {
+            number: "CEC 1858",
+            title: "Decem Praecepta",
+            text: `«Decem Praecepta enuntiant quid amor Dei et amor proximi implicant. Prima tria ad amorem Dei pertinent, et septem alia ad amorem proximi. Sicut caritas duo praecepta comprehendit quibus Dominus "totam Legem et prophetas" annexuit, ita Decalogus unitatem organicam format.»`,
+          },
+          {
+            number: "CEC 2052",
+            title: "«Magister, quid boni faciam?»",
+            text: `«"Vade, vende quae habes, et da pauperibus, et habebis thesaurum in caelo; et veni, sequere me." Hoc loco apparet iter perfectionis per crucem transire. Inseparabile vinculum est inter Iesum sequi et Praecepta.»`,
+          },
+          {
+            number: "CEC 2196",
+            title: "Doctrina Socialis Ecclesiae",
+            text: `«Interrogatus de primo mandatorum, Iesus respondit: "Primum est: Audi, Israel: Dominus Deus noster, Dominus unus est; et diliges Dominum Deum tuum ex toto corde tuo et ex tota anima tua et ex tota mente tua et ex tota virtute tua. Secundum est illud: Diliges proximum tuum tamquam teipsum."»`,
+          },
+        ],
+      },
+      {
+        id: "oratio",
+        icon: "🙏",
+        color: "purple",
+        title: "Oratio Christiana",
+        subtitle: "Quomodo cum Deo loquimur",
+        intro:
+          "Quarta columna sensum et momentum orationis in vita christiana revelat. Orationem Dominicam ut exemplum et culmen omnis orationis christianae praesentat.",
+        items: [
+          {
+            number: "CEC 2558",
+            title: "Quid est Oratio?",
+            text: `«"Magnum est mysterium fidei!" Ecclesia id profitetur in Symbolo Apostolorum et celebrat in liturgia sacramentali, ut vita fidelium conformetur Christo in Spiritu Sancto ad gloriam Dei Patris. Hoc mysterium exigit ut fideles id credant, celebrent et ex eo vivant in relatione viva et personali cum Deo vivo et vero. Haec relatio est oratio.»`,
+          },
+          {
+            number: "CEC 2607",
+            title: "Iesus Nos Orationem Docet",
+            text: `«Cum Iesus orat, iam nos docet quomodo oremus. Oratio Eius ad Patrem est iter theologicum orationis nostrae ad Deum. Sed Evangelia continent etiam expressam doctrinam Iesu de oratione. Ut sapiens Magister, nos accipit ubi sumus et nos progressive ad Patrem ducit.»`,
+          },
+          {
+            number: "CEC 2759",
+            title: "Oratio Dominica",
+            text: `«Iesus "erat in loco quodam orans; ut cessavit, dixit unus ex discipulis eius ad eum: Domine, doce nos orare." Ad hanc petitionem Dominus discipulis suis et Ecclesiae suae orationem christianam fundamentalem tradit. Sanctus Lucas brevem textum quinque petitionum praebet; sanctus Matthaeus versionem magis evolutam septem petitionum.»`,
+          },
+          {
+            number: "CEC 2761",
+            title: "Summa Totius Evangelii",
+            text: `«Oratio Dominica est revera "summa totius Evangelii". "Cum Dominus hanc formam orationis tradidisset, alibi dixit: Petite et accipietis; et cum unusquisque suas proprias haberet necessitates, haec communis et ordinaria oratio primo docta est quasi fundamentum desideriorum ulteriorum."»`,
+          },
+          {
+            number: "CEC 2644",
+            title: "Formae Orationis",
+            text: `«Spiritus Sanctus qui Ecclesiam docet et ei commemorat omnia quae Iesus dixit, eam etiam in vita orationis educat, suscitando expressiones quae formas essentiales orationis renovant: benedictionem et adorationem, petitionem, intercessionem, gratiarum actionem et laudem.»`,
+          },
+        ],
+      },
+    ],
   },
 };
 

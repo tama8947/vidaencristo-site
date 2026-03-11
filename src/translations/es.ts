@@ -8,6 +8,7 @@ const es: Translations = {
     mercy: "Obras de Misericordia",
     gallery: "Galería",
     sanJose: "San José",
+    catechism: "Catecismo",
   },
   hero: {
     tagline: "Vida en Cristo",
@@ -594,6 +595,161 @@ Amén.`,
         },
       ],
     },
+  },
+  catechism: {
+    title: "Catecismo de la Iglesia Católica",
+    subtitle: "Los cuatro pilares de la fe",
+    intro:
+      "El Catecismo de la Iglesia Católica (CIC), publicado en 1992 por el Papa Juan Pablo II, es el compendio oficial de la doctrina de la Iglesia. Se organiza en cuatro grandes pilares que abarcan la totalidad de la vida cristiana.",
+    sourceLabel: "CIC",
+    closingQuote: `«Escucha, Israel: El Señor nuestro Dios es el único Señor. Amarás al Señor tu Dios con todo tu corazón, con toda tu alma, con toda tu mente y con todas tus fuerzas.»`,
+    closingQuoteRef: "— Marcos 12:29-30 · CIC 2196",
+    pillars: [
+      {
+        id: "credo",
+        icon: "✝️",
+        color: "amber",
+        title: "La Profesión de la Fe",
+        subtitle: "Lo que creemos",
+        intro:
+          "El primer pilar expone el Credo Apostólico — los grandes símbolos de la fe que resumen el misterio de Dios: Padre, Hijo y Espíritu Santo, y su obra de creación y salvación.",
+        items: [
+          {
+            number: "CIC 26",
+            title: "La Capacidad Humana de Dios",
+            text: `«La vida del hombre con Dios comienza en el momento en que este se da cuenta de que ha sido hecho a imagen de Dios, orientado hacia la plenitud de vida con Él. Dios no cesa de atraer al hombre hacia sí, y sólo en Dios encontrará el hombre la verdad y la felicidad que no cesa de buscar.»`,
+          },
+          {
+            number: "CIC 234",
+            title: "El Misterio de la Santísima Trinidad",
+            text: `«El misterio de la Santísima Trinidad es el misterio central de la fe y de la vida cristiana. Es el misterio de Dios en sí mismo. Es, pues, la fuente de todos los otros misterios de la fe; es la luz que los ilumina.»`,
+          },
+          {
+            number: "CIC 456",
+            title: "¿Por Qué el Verbo Se Hizo Carne?",
+            text: `«Con el Credo de Nicea respondemos confesando: "Por nosotros los hombres y por nuestra salvación bajó del cielo, y por obra del Espíritu Santo se encarnó de María la Virgen y se hizo hombre." El Verbo se hizo carne para nosotros a fin de salvarnos reconciliándonos con Dios.»`,
+          },
+          {
+            number: "CIC 748",
+            title: "Cristo — Luz de las Naciones",
+            text: `«Cristo es la luz de todos los pueblos. Este sacrosanto Concilio, reunido en el Espíritu Santo, desea ardientemente iluminar a todos los hombres con la luz de Cristo, que resplandece sobre el rostro de la Iglesia, anunciando el Evangelio a toda criatura.»`,
+          },
+          {
+            number: "CIC 988",
+            title: "La Resurrección de la Carne",
+            text: `«El Credo cristiano — profesión de nuestra fe en Dios Padre, Hijo y Espíritu Santo, y en su acción creadora, salvadora y santificadora — culmina en la proclamación de la resurrección de los muertos al fin de los tiempos y en la vida eterna.»`,
+          },
+        ],
+      },
+      {
+        id: "sacramentos",
+        icon: "🕊️",
+        color: "blue",
+        title: "Los Sacramentos",
+        subtitle: "Cómo celebramos la fe",
+        intro:
+          "Los siete sacramentos son los signos eficaces de la gracia instituidos por Cristo y confiados a la Iglesia. Por medio de ellos nos es dispensada la vida divina. Abarcan todas las etapas y todos los momentos importantes de la vida cristiana.",
+        items: [
+          {
+            number: "CIC 1113",
+            title: "Los Sacramentos de Cristo",
+            text: `«Toda la vida litúrgica de la Iglesia gira en torno al sacrificio eucarístico y a los sacramentos. En la Iglesia hay siete sacramentos: el Bautismo, la Confirmación o Crismación, la Eucaristía, la Penitencia, la Unción de los enfermos, el Orden y el Matrimonio.»`,
+          },
+          {
+            number: "CIC 1213",
+            title: "El Bautismo — Puerta de la Vida",
+            text: `«El santo Bautismo es el fundamento de toda la vida cristiana, el pórtico de la vida en el espíritu y la puerta que abre el acceso a los otros sacramentos. Por el Bautismo somos liberados del pecado y regenerados como hijos de Dios, llegamos a ser miembros de Cristo y somos incorporados a la Iglesia.»`,
+          },
+          {
+            number: "CIC 1322",
+            title: "La Eucaristía — Fuente y Cumbre",
+            text: `«La sagrada Eucaristía culmina la iniciación cristiana. Los que han sido elevados a la dignidad del sacerdocio real por el Bautismo y configurados más profundamente a Cristo por la Confirmación, participan por medio de la Eucaristía con toda la comunidad en el sacrificio del Señor.»`,
+          },
+          {
+            number: "CIC 1440",
+            title: "Penitencia y Reconciliación",
+            text: `«El pecado es ante todo una ofensa a Dios, una ruptura de la comunión con Él. Al mismo tiempo atenta contra la comunión con la Iglesia. Por eso la conversión implica a la vez el perdón de Dios y la reconciliación con la Iglesia, que son expresados y realizados litúrgicamente por el sacramento de la Penitencia y de la Reconciliación.»`,
+          },
+          {
+            number: "CIC 1601",
+            title: "El Matrimonio en el Plan de Dios",
+            text: `«La alianza matrimonial, por la que el varón y la mujer constituyen entre sí un consorcio de toda la vida, ordenado por su misma índole natural al bien de los cónyuges y a la generación y educación de la prole, fue elevada por Cristo Nuestro Señor a la dignidad de sacramento.»`,
+          },
+        ],
+      },
+      {
+        id: "vida",
+        icon: "🌿",
+        color: "green",
+        title: "La Vida en Cristo",
+        subtitle: "Cómo vivimos la fe",
+        intro:
+          "El tercer pilar presenta la vocación última del hombre: la bienaventuranza. Traza el camino de esa vocación a través de los Diez Mandamientos, las Bienaventuranzas y las virtudes que conducen a una vida digna del Evangelio.",
+        items: [
+          {
+            number: "CIC 1716",
+            title: "Las Bienaventuranzas",
+            text: `«Las Bienaventuranzas están en el centro de la predicación de Jesús. Retoman las promesas hechas al pueblo elegido desde Abraham. Las Bienaventuranzas las perfeccionan ordenándolas no ya a la sola posesión de un territorio, sino al reino de los cielos.»`,
+          },
+          {
+            number: "CIC 1803",
+            title: "Las Virtudes Humanas",
+            text: `«La virtud es una disposición habitual y firme a hacer el bien. Permite a la persona no sólo realizar actos buenos, sino dar lo mejor de sí misma. La persona virtuosa tiende hacia el bien con todas sus fuerzas sensitivas y espirituales; persigue el bien y lo elige en acciones concretas.»`,
+          },
+          {
+            number: "CIC 1858",
+            title: "Los Diez Mandamientos",
+            text: `«Los diez mandamientos enuncian lo que implica el amor a Dios y el amor al prójimo. Los tres primeros se refieren más directamente al amor de Dios, y los otros siete al amor al prójimo. Como la caridad comprende los dos mandamientos a los que el Señor vinculó 'toda la Ley y los Profetas', así el Decálogo forma una unidad orgánica.»`,
+          },
+          {
+            number: "CIC 2052",
+            title: "«Maestro, ¿qué bien debo hacer?»",
+            text: `«Ve, vende lo que tienes, dáselo a los pobres y tendrás un tesoro en el cielo; luego ven y sígueme.' Este pasaje pone de relieve que el camino de la perfección pasa por la cruz. Hay un vínculo indisoluble entre el seguimiento de Jesús y los Mandamientos.»`,
+          },
+          {
+            number: "CIC 2196",
+            title: "La Doctrina Social de la Iglesia",
+            text: `«En respuesta a la pregunta sobre el primero de los mandamientos, Jesús dice: "El primero es: Escucha, Israel: el Señor, nuestro Dios, es el único Señor; amarás al Señor tu Dios con todo tu corazón, con toda tu alma, con toda tu mente y con todas tus fuerzas. El segundo es: amarás a tu prójimo como a ti mismo."»`,
+          },
+        ],
+      },
+      {
+        id: "oracion",
+        icon: "🙏",
+        color: "purple",
+        title: "La Oración Cristiana",
+        subtitle: "Cómo hablamos con Dios",
+        intro:
+          "El cuarto pilar revela el sentido y la importancia de la oración en la vida del cristiano. Presenta el Padrenuestro como modelo y cumbre de toda oración cristiana, comentando cada una de sus peticiones.",
+        items: [
+          {
+            number: "CIC 2558",
+            title: "¿Qué es la Oración?",
+            text: `«"Grande es el misterio de la fe." La Iglesia lo profesa en el Símbolo de los Apóstoles y lo celebra en la liturgia sacramental, a fin de que la vida de los fieles se conforme con Cristo en el Espíritu Santo para la gloria de Dios Padre. Este misterio exige que los fieles lo crean, lo celebren y vivan de él en una relación viva y personal con el Dios vivo y verdadero. Esta relación es la oración.»`,
+          },
+          {
+            number: "CIC 2607",
+            title: "Jesús Nos Enseña a Orar",
+            text: `«Cuando Jesús ora, ya nos enseña cómo orar. Su oración al Padre es el camino teológico de nuestra oración a Dios. Pero los Evangelios contienen también una enseñanza explícita de Jesús sobre la oración. Como un sabio maestro nos toma donde estamos y nos conduce progresivamente hacia el Padre.»`,
+          },
+          {
+            number: "CIC 2759",
+            title: "El Padrenuestro",
+            text: `«Jesús "estaba orando en cierto lugar, y cuando terminó, uno de sus discípulos le dijo: Señor, enséñanos a orar." En respuesta a esta petición el Señor confía a sus discípulos y a su Iglesia la oración cristiana fundamental. San Lucas presenta un texto breve de cinco peticiones; San Mateo una versión más desarrollada de siete peticiones.»`,
+          },
+          {
+            number: "CIC 2761",
+            title: "Resumen de Todo el Evangelio",
+            text: `«El Padre Nuestro es verdaderamente "el resumen de todo el Evangelio". "Cuando el Señor nos entregó esta fórmula de oración, añadió: Pedid y recibiréis, y dado que cada uno tiene necesidades particulares, esa misma oración fue enseñada primero para uso común como fundamento de los deseos ulteriores."»`,
+          },
+          {
+            number: "CIC 2644",
+            title: "Las Formas de Oración",
+            text: `«El Espíritu Santo que enseña a la Iglesia y le recuerda todo lo que Jesús dijo, la educa también en la vida de oración suscitando expresiones que renuevan las formas básicas de la oración: bendición y adoración, petición, intercesión, acción de gracias y alabanza.»`,
+          },
+        ],
+      },
+    ],
   },
 };
 
