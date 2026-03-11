@@ -290,7 +290,7 @@ Amén.`,
 
 export default function SanJosePage() {
   const [activeTab, setActiveTab] = useState<"prayers" | "rosario" | "novena">("prayers");
-  const [expandedNovenaDay, setExpandedNovenaDay] = useState<number | null>(1);
+  const [expandedNovenaDay, setExpandedNovenaDay] = useState<number | null>(null);
   const [expandedMystery, setExpandedMystery] = useState<number | null>(null);
   const heroRef = useRef<HTMLDivElement>(null);
   const heroInView = useInView(heroRef, { once: true });
