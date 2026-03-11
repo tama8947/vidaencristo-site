@@ -7,6 +7,7 @@ const es: Translations = {
     rosary: "Rosario",
     mercy: "Obras de Misericordia",
     gallery: "Galería",
+    sanJose: "San José",
   },
   hero: {
     tagline: "Vida en Cristo",
@@ -83,6 +84,46 @@ la comunión de los santos,
 el perdón de los pecados,
 la resurrección de la carne
 y la vida eterna.
+Amén.`,
+    },
+    holySpirit: {
+      title: "Oración al Espíritu Santo",
+      subtitle: "Veni Sancte Spiritus",
+      text: `Ven, Espíritu Santo,
+llena los corazones de tus fieles
+y enciende en ellos el fuego de tu amor.
+Envía tu Espíritu y serán creados,
+y renovarás la faz de la tierra.
+¡Oh Dios, que has iluminado
+los corazones de tus fieles
+con la luz del Espíritu Santo!,
+concédenos que, por ese mismo Espíritu,
+tengamos siempre recto sentir
+y gocemos de su consuelo.
+Por Jesucristo Nuestro Señor.
+Amén.`,
+    },
+    magnificat: {
+      title: "El Magnificat",
+      subtitle: "Cántico de María — Lucas 1:46-55",
+      text: `Proclama mi alma la grandeza del Señor,
+se alegra mi espíritu en Dios, mi Salvador;
+porque ha mirado la humillación de su esclava.
+Desde ahora me felicitarán todas las generaciones,
+porque el Poderoso ha hecho obras grandes por mí:
+su nombre es Santo,
+y su misericordia llega a sus fieles
+de generación en generación.
+Él hace proezas con su brazo:
+dispersa a los soberbios de corazón,
+derriba del trono a los poderosos
+y enaltece a los humildes,
+a los hambrientos los colma de bienes
+y a los ricos los despide vacíos.
+Auxilia a Israel, su siervo,
+acordándose de la misericordia
+—como lo había prometido a nuestros padres—
+en favor de Abrahán y su descendencia por siempre.
 Amén.`,
     },
   },

@@ -5,6 +5,7 @@ const en = {
     rosary: "Rosary",
     mercy: "Works of Mercy",
     gallery: "Gallery",
+    sanJose: "Saint Joseph",
   },
   hero: {
     tagline: "Vida en Cristo",
@@ -80,6 +81,45 @@ the resurrection of the body,
 and life everlasting.
 Amen.`,
     },
+    holySpirit: {
+      title: "Prayer to the Holy Spirit",
+      subtitle: "Veni Sancte Spiritus",
+      text: `Come, Holy Spirit,
+fill the hearts of your faithful
+and kindle in them the fire of your love.
+Send forth your Spirit and they shall be created,
+and you shall renew the face of the earth.
+O God, who by the light of the Holy Spirit
+did instruct the hearts of the faithful,
+grant that by the same Holy Spirit
+we may be truly wise
+and ever rejoice in His consolation.
+Through Christ our Lord.
+Amen.`,
+    },
+    magnificat: {
+      title: "The Magnificat",
+      subtitle: "Canticle of Mary — Luke 1:46-55",
+      text: `My soul proclaims the greatness of the Lord,
+my spirit rejoices in God my Savior;
+for He has looked with favor on His lowly servant.
+From this day all generations will call me blessed:
+the Almighty has done great things for me,
+and holy is His Name.
+He has mercy on those who fear Him
+in every generation.
+He has shown the strength of His arm,
+He has scattered the proud in their conceit.
+He has cast down the mighty from their thrones,
+and has lifted up the lowly.
+He has filled the hungry with good things,
+and the rich He has sent away empty.
+He has come to the help of His servant Israel
+for He has remembered His promise of mercy,
+the promise He made to our fathers,
+to Abraham and his children for ever.
+Amen.`,
+    },
   },
   rosary: {
     title: "The Holy Rosary",
@@ -93,11 +133,31 @@ Amen.`,
         day: "Monday & Saturday",
         color: "from-pink-900 to-rose-800",
         items: [
-          "The Annunciation",
-          "The Visitation",
-          "The Nativity",
-          "The Presentation",
-          "The Finding in the Temple",
+          {
+            name: "The Annunciation",
+            meditation: "We contemplate the moment the Angel Gabriel announces to Mary that she will be the Mother of the Savior. We meditate on her humble 'yes' to God's will.",
+            verse: '"Hail, full of grace, the Lord is with you." — Luke 1:28',
+          },
+          {
+            name: "The Visitation",
+            meditation: "Mary, carrying Jesus in her womb, visits her cousin Elizabeth. The presence of Jesus fills Zechariah's home with joy and the Holy Spirit.",
+            verse: '"How is it that the mother of my Lord should come to me?" — Luke 1:43',
+          },
+          {
+            name: "The Nativity",
+            meditation: "We contemplate the Son of God becoming small, born in a manger, the light of the world coming to illumine our darkness.",
+            verse: '"Today in the city of David a Savior has been born for you who is Messiah and Lord." — Luke 2:11',
+          },
+          {
+            name: "The Presentation",
+            meditation: "Mary and Joseph offer Jesus to the Father in the temple. Simeon recognizes the promised Savior and prophesies his universal mission.",
+            verse: '"This child is destined for the fall and rise of many in Israel." — Luke 2:34',
+          },
+          {
+            name: "The Finding in the Temple",
+            meditation: "For three days, Mary and Joseph search for Jesus with anguish. They find him in his Father's house, fulfilling his divine mission.",
+            verse: '"Did you not know that I must be in my Father\'s house?" — Luke 2:49',
+          },
         ],
       },
       sorrowful: {
@@ -105,11 +165,31 @@ Amen.`,
         day: "Tuesday & Friday",
         color: "from-red-950 to-red-900",
         items: [
-          "The Agony in the Garden",
-          "The Scourging at the Pillar",
-          "The Crowning with Thorns",
-          "The Carrying of the Cross",
-          "The Crucifixion",
+          {
+            name: "The Agony in the Garden",
+            meditation: "Jesus sweats blood in Gethsemane, bearing the weight of all our sins. His love for the Father and for us sustains him in the darkest hour.",
+            verse: '"Father, if you are willing, take this cup away from me; still, not my will but yours be done." — Luke 22:42',
+          },
+          {
+            name: "The Scourging at the Pillar",
+            meditation: "Jesus's body is torn by scourges. With each blow, he bears our infirmities and heals the wounds of sin.",
+            verse: '"He was pierced for our transgressions, crushed for our iniquities." — Isaiah 53:5',
+          },
+          {
+            name: "The Crowning with Thorns",
+            meditation: "Soldiers crown Jesus with thorns, mocking his royalty. He endures humiliation with infinite gentleness and love.",
+            verse: '"They wove a crown of thorns and placed it on his head." — Matthew 27:29',
+          },
+          {
+            name: "The Carrying of the Cross",
+            meditation: "Jesus carries the cross through the streets of Jerusalem, falling several times. His love for us is stronger than any pain.",
+            verse: '"Carrying the cross himself, he went out to what is called the Place of the Skull." — John 19:17',
+          },
+          {
+            name: "The Crucifixion",
+            meditation: "On the cross, Jesus gives his life out of love for us. With his last words, he entrusts us to Mary and forgives all who have sinned.",
+            verse: '"Father, forgive them, they know not what they do." — Luke 23:34',
+          },
         ],
       },
       glorious: {
@@ -117,11 +197,31 @@ Amen.`,
         day: "Wednesday & Sunday",
         color: "from-amber-900 to-yellow-800",
         items: [
-          "The Resurrection",
-          "The Ascension",
-          "The Descent of the Holy Spirit",
-          "The Assumption of Mary",
-          "The Coronation of Mary",
+          {
+            name: "The Resurrection",
+            meditation: "At dawn on the third day, Christ rises victorious over death. This is the foundation of our faith and the source of our hope.",
+            verse: '"Why do you seek the living one among the dead? He is not here, but he has been raised." — Luke 24:5-6',
+          },
+          {
+            name: "The Ascension",
+            meditation: "Jesus ascends to heaven in the presence of his disciples, promising to send the Holy Spirit and to prepare a place for us.",
+            verse: '"This Jesus who has been taken up from you into heaven will return in the same way." — Acts 1:11',
+          },
+          {
+            name: "The Descent of the Holy Spirit",
+            meditation: "The Holy Spirit descends upon Mary and the Apostles at Pentecost. The Church is born, filled with fire and divine grace.",
+            verse: '"They were all filled with the Holy Spirit and began to speak in different tongues." — Acts 2:4',
+          },
+          {
+            name: "The Assumption of Mary",
+            meditation: "At the end of her earthly life, Mary is taken into heaven in body and soul. She precedes us in the glory we all hope to share.",
+            verse: '"A great sign appeared in the sky, a woman clothed with the sun." — Revelation 12:1',
+          },
+          {
+            name: "The Coronation of Mary",
+            meditation: "Mary is crowned Queen of heaven and earth. She intercedes for us constantly before her Son Jesus Christ.",
+            verse: '"The queen takes her place at your right hand in gold of Ophir." — Psalm 45:10',
+          },
         ],
       },
       luminous: {
@@ -129,11 +229,31 @@ Amen.`,
         day: "Thursday",
         color: "from-blue-900 to-sky-800",
         items: [
-          "The Baptism of Jesus",
-          "The Wedding at Cana",
-          "The Proclamation of the Kingdom",
-          "The Transfiguration",
-          "The Institution of the Eucharist",
+          {
+            name: "The Baptism of Jesus",
+            meditation: "Jesus is baptized in the Jordan and the Father proclaims his divine identity. Our baptism incorporates us into the family of God.",
+            verse: '"This is my beloved Son, with whom I am well pleased." — Matthew 3:17',
+          },
+          {
+            name: "The Wedding at Cana",
+            meditation: "At Mary's intercession, Jesus performs his first miracle, turning water into wine. Mary always leads us to her Son.",
+            verse: '"Do whatever he tells you." — John 2:5',
+          },
+          {
+            name: "The Proclamation of the Kingdom",
+            meditation: "Jesus announces the Kingdom and calls everyone to conversion. His message of love and mercy transforms hearts.",
+            verse: '"The kingdom of God is at hand. Repent, and believe in the gospel." — Mark 1:15',
+          },
+          {
+            name: "The Transfiguration",
+            meditation: "On Tabor, Jesus reveals his divine glory to Peter, James, and John. This vision gives us strength to face every trial.",
+            verse: '"This is my beloved Son, with whom I am well pleased; listen to him." — Matthew 17:5',
+          },
+          {
+            name: "The Institution of the Eucharist",
+            meditation: "At the Last Supper, Jesus gives us his Body and Blood as food for the journey. The Eucharist is the heart of the Church.",
+            verse: '"Take and eat; this is my body." — Matthew 26:26',
+          },
         ],
       },
     },
