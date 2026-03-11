@@ -316,6 +316,282 @@ Amen.`,
     madeWith: "Factum cum",
     andFaith: "et fide",
   },
+  sanJose: {
+    hero: {
+      subtitle: "Pater Adoptivus Iesu · Sponsus Virginis Mariae",
+      quote: "«Custos Sanctae Familiae, Patronus Ecclesiae Universalis, exemplum fidei, silentii et laboris»",
+    },
+    tabs: {
+      prayers: "Orationes",
+      rosario: "Rosarium",
+      novena: "Novem Dies",
+    },
+    prayers: {
+      title: "Orationes ad Sanctum Ioseph",
+      subtitle: "Vos patrocinio potenti Sancti Ioseph commendatis",
+      items: [
+        {
+          title: "Oratio ad Sanctum Ioseph",
+          subtitle: "Patronum Ecclesiae Universalis",
+          text: `O Sancte Ioseph, sponse Virginis Mariae
+et pater adoptivus Iesu,
+adi in auxilium meum potenti intercessione tua.
+Tu qui fuisti custos fidelis Sanctae Familiae,
+esto etiam protector meus in difficultatibus vitae.
+
+Dirige gressus meos per viam amoris et iustitiae,
+et impetra mihi gratiam vivendi semper
+in voluntate Dei.
+
+Amen.`,
+        },
+        {
+          title: "Consecratio ad Sanctum Ioseph",
+          subtitle: "Pater et Protector",
+          text: `Gloriose Sancte Ioseph,
+patrone Ecclesiae Universalis,
+me tibi hodie consecro
+meque sub tua protectione colloco.
+
+Sicut Iesus sub amorosa cura tua fuit,
+ita me manibus tuis confidenter filiorum more committo.
+Sis dux meus, sustentaculum meum
+et intercessor meus apud Dominum.
+
+Vita tua silentii et laboris,
+fidei et obedientiae totalis Deo,
+exemplum vitae meae christianae sit.
+
+Amen.`,
+        },
+        {
+          title: "Oratio pro Familia",
+          subtitle: "Ad Sanctum Ioseph, Sponsum et Patrem",
+          text: `Sancte Ioseph, custos Sanctae Familiae,
+protege familias nostras his temporibus difficilibus.
+Amor qui Sanctam Familiam iunxit
+in domibus nostris etiam regnet.
+
+Impetra nobis a Filio tuo Iesu
+gratiam nos invicem amandi,
+ignoscendi, serviendi
+et iter ad caelum simul faciendi.
+
+Amen.`,
+        },
+        {
+          title: "Oratio Operarii",
+          subtitle: "Sancte Ioseph, Patrone Operariorum",
+          text: `Sancte Ioseph Opifex,
+qui laborem manibus tuis sanctificasti,
+benedic labori omnium virorum et mulierum.
+
+Nullus operarius pane careat,
+nulla familia iniuriam patiatur,
+et fructus laboris humani
+semper dignitatis et gaudii causa sit.
+
+Intercede pro iis qui laborem quaerunt,
+pro iis qui in difficulibus condicionibus laborant,
+et pro omnibus qui familiae suae curant.
+
+Amen.`,
+        },
+      ],
+    },
+    rosario: {
+      title: "Rosarium Sancti Ioseph",
+      subtitle: "Septem Dolores et Septem Gaudia",
+      intro: `Rosarium Sancti Ioseph in Septem Doloribus et Septem Gaudiis huius magni sancti meditatur.
+Oratur cum septem coetibus 7 Ave Mariarum, in unoquoque mysterio vitae Sancti Ioseph meditando.
+Singulae decades Pater Noster praeceduntur et Gloria Patri concluduntur.`,
+      dolorLabel: "Dolor",
+      gozoLabel: "Gaudium",
+      closingNote: "Concludere cum Salve Regina et hac iaculatoria:",
+      closingPrayer: "«Sancte Ioseph, ora pro nobis.»",
+      mysteries: [
+        {
+          title: "Primum Mysterium",
+          dolor: "Dubium Sancti Ioseph de origine graviditatis Mariae",
+          gozo: "Angelus Sancto Ioseph revelat Iesum Filium Dei esse",
+          verse: '"Ioseph, fili David, noli timere accipere Mariam coniugem tuam; quod enim in ea natum est de Spiritu Sancto est." — Matthaeum 1:20',
+        },
+        {
+          title: "Secundum Mysterium",
+          dolor: "Paupertas praesepi Bethlehemitici",
+          gozo: "Nativitas Iesu, Salvatoris mundi",
+          verse: '"Et peperit filium suum primogenitum et pannis eum involvit et reclinavit eum in praesepio." — Lucam 2:7',
+        },
+        {
+          title: "Tertium Mysterium",
+          dolor: "Prophetia Simeonis de dolore Mariae",
+          gozo: "Prophetiae de Iesu ut luce gentium",
+          verse: '"Positus est hic in ruinam et resurrectionem multorum in Israhel." — Lucam 2:34',
+        },
+        {
+          title: "Quartum Mysterium",
+          dolor: "Fuga in Aegyptum ad effugiendum Herodem",
+          gozo: "Divina protectio super Sanctam Familiam in Aegypto",
+          verse: '"Surge et accipe puerum et matrem eius et fuge in Aegyptum." — Matthaeum 2:13',
+        },
+        {
+          title: "Quintum Mysterium",
+          dolor: "Amaritudo exsilii in terra aliena",
+          gozo: "Reditus in terram promissam post mortem Herodis",
+          verse: '"Surge et accipe puerum et matrem eius et vade in terram Israhel." — Matthaeum 2:20',
+        },
+        {
+          title: "Sextum Mysterium",
+          dolor: "Amissio Pueri Iesu Hierosolymis",
+          gozo: "Inventio Iesu in Templo inter doctores",
+          verse: '"Invenerunt illum in templo sedentem in medio doctorum." — Lucam 2:46',
+        },
+        {
+          title: "Septimum Mysterium",
+          dolor: "Aegrotatio et mors Sancti Ioseph",
+          gozo: "Sanctus Ioseph moritur adiutus a Iesu et Maria, gloriam aeternam adipiscens",
+          verse: '"Pretiosa in conspectu Domini mors sanctorum eius." — Psalmum 116:15',
+        },
+      ],
+    },
+    novena: {
+      title: "Novem Dies ad Sanctum Ioseph",
+      subtitle: "Novem dies orationis et meditationis",
+      meditationLabel: "Meditatio",
+      prayerLabel: "Oratio diei",
+      finalPrayerTitle: "Oratio Finalis",
+      finalPrayer: "«O Sancte Ioseph, cuius patrocinium tam magnum, tam forte, tam promptum est ante thronum Dei, tibi omnia mea negotia et desideria committo. O Sancte Ioseph, adsis mihi potenti intercessione tua et a Filio tuo Divino impetra omnes gratias spirituales et temporales quibus indigeo. Amen.»",
+      days: [
+        {
+          title: "Dies I — Vocatio Sancti Ioseph",
+          meditation: "Sanctus Ioseph, ab aeterno a Deo electus ut sponsus Mariae et pater adoptivus Iesu esset. Meditare in magnitudine vocationis suae et pete a Deo ut tuam ipse invenias.",
+          prayer: `O Sancte Ioseph, a Deo vocatus fuisti ad missionem unicam in historia salutis.
+Adiuva me meam propriam vocationem cognoscere et amare,
+respondere eodem generoso «fiat» quod tu dedisti
+cum angelus mysterium tibi revelavit.
+
+Ut et ego cum fide dicam: «Fiat voluntas tua».
+
+Amen.`,
+        },
+        {
+          title: "Dies II — Fides Sancti Ioseph",
+          meditation: "Sanctus Ioseph credidit non videns, confidit non intellegens. Fides eius in Deum probata et purificata est. Pete gratiam fidei fortis quae non vacillet ante difficultates.",
+          prayer: `Sancte Ioseph, vir profundae fidei,
+credidisti verbo angeli
+et sine haesitatione egisti.
+Da mihi fidem firmam et confidentem
+quae me sustineat in momentis obscuritatis.
+
+Quando viam Dei in vita mea non intelligo,
+adiuva me credere et confidenter progredi.
+
+Amen.`,
+        },
+        {
+          title: "Dies III — Castitas Sancti Ioseph",
+          meditation: "Sanctus Ioseph, «vir iustus», perfecta cordis castitate vixit. Amor eius erga Mariam sacer et fidelis fuit. Pete gratiam castitatis in cogitationibus, verbis et operibus.",
+          prayer: `Castissime Sancte Ioseph,
+exemplum castitatis et rectitudinis,
+intercede pro me ut cor meum purum sit
+et actiones meae amorem Dei reflectant.
+
+Protege animam meam et familiae meae
+ab omnibus quae a Deo avertunt.
+
+Amen.`,
+        },
+        {
+          title: "Dies IV — Labor Sancti Ioseph",
+          meditation: "Sanctus Ioseph laborem manibus suis sanctificavit. Faber lignarius Nazarethanus, Iesum valorem laboris honesti docuit. Pete gratiam laborandi cum amore et dignitate.",
+          prayer: `Sancte Ioseph Opifex,
+laborem meum cotidianum sanctifica
+omniumque qui honeste laborant.
+Ut in labore inveniam
+non solum sustentaculum corporis
+sed etiam animae.
+
+Intercede pro iis qui laborem non habent
+et pro iis qui explorationi obnoxii sunt.
+
+Amen.`,
+        },
+        {
+          title: "Dies V — Silentium Sancti Ioseph",
+          meditation: "In Evangeliis, Sanctus Ioseph numquam loquitur. Vita eius testimonium actionis silentis in servitio Dei fuit. Pete gratiam silentii interioris ad Deum audiendum.",
+          prayer: `Sancte Ioseph silentii sacri,
+doce me audire antequam loquar,
+orare antequam agam,
+confidere antequam intellegere velim.
+
+In strepitu huius mundi,
+adiuva me invenire silentium interius
+ubi Deus cordi meo loquitur.
+
+Amen.`,
+        },
+        {
+          title: "Dies VI — Oboedientia Sancti Ioseph",
+          meditation: "Sanctus Ioseph Deo oboedivit quotienscumque angelus ei locutus est: Mariam accipiendo, in Aegyptum fugiendo, in Israhel redeundo. Oboedientia eius vitam Salvatoris servavit. Pete gratiam oboedientiae Deo.",
+          prayer: `Oboediens Sancte Ioseph,
+surrexisti quotienscumque Deus te vocavit,
+sine quaestione, sine haesitatione, sine mora.
+Da mihi gratiam Deo oboediendi
+in omni circumstantia vitae meae,
+maxime quando vias eius non intellego.
+
+Voluntas mea semper ante voluntatem divinam
+inclinetur.
+
+Amen.`,
+        },
+        {
+          title: "Dies VII — Mansuetudo Sancti Ioseph",
+          meditation: "Sanctus Ioseph Iesum amore veri patris amavit. Protexit, nutrivit, laborare docuit. Amor eius concretus et fidelis fuit. Pete gratiam amoris familiaris.",
+          prayer: `Sancte Ioseph pater amans,
+qui Iesum manibus fortibus et corde tenero curavisti,
+intercede pro patribus et matribus mundi.
+
+Domus nostrae scholae amoris sint,
+pueri securi et amati crescant,
+et familiae primum speculum
+amoris Dei in mundo sint.
+
+Amen.`,
+        },
+        {
+          title: "Dies VIII — Sanctus Ioseph Protector Ecclesiae",
+          meditation: "Pius IX Papa Sanctum Ioseph Patronum Ecclesiae Universalis proclamavit. Corpus Christi Nazareti protexit; nunc Corpus Christi quod est Ecclesia protegit. Pete gratiam Ecclesiam amandi et serviendi.",
+          prayer: `Sancte Ioseph, custos Sanctae Ecclesiae,
+Corpus Mysticum Christi sub tua protectione est.
+Intercede pro Papa, episcopis, sacerdotibus
+omnibusque fidelibus.
+
+Protege Ecclesiam ab impugnationibus mali,
+sanctitatem eius renova
+et adiuva eam ut semper signum amoris Dei pro mundo sit.
+
+Amen.`,
+        },
+        {
+          title: "Dies IX — Sanctus Ioseph Patronus Bonae Mortis",
+          meditation: "Sanctus Ioseph in ulnis Iesu et Mariae mortuus est. Ideo ut patronus bonae mortis invocatur. Pete gratiam moriendi in gratia Dei, amore Mariae et Ecclesiae adiutus.",
+          prayer: `Sancte Ioseph, patrone bonae mortis,
+qui oculos tuos mundo clausisti
+in ulnis Iesu et Mariae,
+impetra mihi gratiam in fide perseverandi
+usque ad finem vitae meae.
+
+Quando hora mea venerit,
+in gratia me invenias,
+et tu sis qui me comiteris
+in praesentiam Dei.
+
+Amen.`,
+        },
+      ],
+    },
+  },
 };
 
 export default la;
