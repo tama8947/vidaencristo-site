@@ -319,6 +319,282 @@ Amén.`,
     madeWith: "Hecho con",
     andFaith: "y fe",
   },
+  sanJose: {
+    hero: {
+      subtitle: "Padre Adoptivo de Jesús · Esposo de la Virgen María",
+      quote: "«Custodio de la Sagrada Familia, Patrono de la Iglesia Universal, modelo de fe, silencio y trabajo»",
+    },
+    tabs: {
+      prayers: "Oraciones",
+      rosario: "Rosario",
+      novena: "Novena",
+    },
+    prayers: {
+      title: "Oraciones a San José",
+      subtitle: "Encomendáos al poderoso patrocinio de San José",
+      items: [
+        {
+          title: "Oración a San José",
+          subtitle: "Patrono de la Iglesia Universal",
+          text: `Oh San José, esposo de la Virgen María
+y padre adoptivo de Jesús,
+acude en mi auxilio con tu poderosa intercesión.
+Tú que fuiste custodio fiel de la Sagrada Familia,
+sé también mi protector en las dificultades de la vida.
+
+Guía mis pasos por el camino del amor y la justicia,
+y alcánzame la gracia de vivir siempre
+en la voluntad de Dios.
+
+Amén.`,
+        },
+        {
+          title: "Consagración a San José",
+          subtitle: "Padre y Protector",
+          text: `Glorioso San José,
+patrono de la Iglesia Universal,
+me consagro hoy a ti
+y me pongo bajo tu protección.
+
+Como Jesús estuvo bajo tu cuidado amoroso,
+así me encomiendo a tus manos con confianza filial.
+Sé mi guía, mi sostén
+y mi intercesor ante el Señor.
+
+Que tu vida de silencio y trabajo,
+de fe y de obediencia total a Dios,
+sea el modelo de mi vida cristiana.
+
+Amén.`,
+        },
+        {
+          title: "Oración por la Familia",
+          subtitle: "A San José, Esposo y Padre",
+          text: `San José, guardián de la Sagrada Familia,
+protege nuestras familias en estos tiempos difíciles.
+Que el amor que unió a la Sagrada Familia
+reine también en nuestros hogares.
+
+Alcánzanos de tu Hijo Jesús
+la gracia de amarnos los unos a los otros,
+de perdonarnos, de servirnos
+y de caminar juntos hacia el cielo.
+
+Amén.`,
+        },
+        {
+          title: "Oración del Trabajador",
+          subtitle: "San José, Patrono de los Trabajadores",
+          text: `San José Obrero,
+tú que santificaste el trabajo con tus manos,
+bendice el trabajo de todos los hombres y mujeres.
+
+Que ningún trabajador carezca de pan,
+que ninguna familia sufra injusticia,
+y que el fruto del trabajo humano
+sea siempre motivo de dignidad y alegría.
+
+Intercede por los que buscan empleo,
+por los que trabajan en condiciones difíciles,
+y por todos los que cuidan a sus familias.
+
+Amén.`,
+        },
+      ],
+    },
+    rosario: {
+      title: "Rosario a San José",
+      subtitle: "Siete Dolores y Siete Gozos",
+      intro: `El Rosario de San José medita en los Siete Dolores y los Siete Gozos de este gran santo.
+Se reza con siete grupos de 7 Avemarías, meditando en cada misterio de la vida de San José.
+Cada decena va precedida de un Padrenuestro y finaliza con una Gloria.`,
+      dolorLabel: "Dolor",
+      gozoLabel: "Gozo",
+      closingNote: "Concluye con la Salve y la siguiente jaculatoria:",
+      closingPrayer: "«San José, ruega por nosotros.»",
+      mysteries: [
+        {
+          title: "Primer Misterio",
+          dolor: "La duda de San José sobre el origen del embarazo de María",
+          gozo: "El ángel revela a San José que Jesús es el Hijo de Dios",
+          verse: '"José, hijo de David, no temas recibir a María tu esposa, porque lo que en ella se ha engendrado es obra del Espíritu Santo." — Mateo 1:20',
+        },
+        {
+          title: "Segundo Misterio",
+          dolor: "La pobreza del pesebre de Belén",
+          gozo: "El nacimiento de Jesús, el Salvador del mundo",
+          verse: '"Y dio a luz a su hijo primogénito, lo envolvió en pañales y lo recostó en un pesebre." — Lucas 2:7',
+        },
+        {
+          title: "Tercer Misterio",
+          dolor: "La profecía de Simeón sobre el dolor de María",
+          gozo: "Las profecías sobre Jesús como luz de las naciones",
+          verse: '"Este niño está puesto para caída y resurgimiento de muchos." — Lucas 2:34',
+        },
+        {
+          title: "Cuarto Misterio",
+          dolor: "La huida a Egipto para escapar de Herodes",
+          gozo: "La protección divina sobre la Sagrada Familia en Egipto",
+          verse: '"Levántate, toma al niño y a su madre, y huye a Egipto." — Mateo 2:13',
+        },
+        {
+          title: "Quinto Misterio",
+          dolor: "La amargura del destierro en tierra extranjera",
+          gozo: "El regreso a la tierra prometida tras la muerte de Herodes",
+          verse: '"Levántate, toma al niño y a su madre, y regresa a la tierra de Israel." — Mateo 2:20',
+        },
+        {
+          title: "Sexto Misterio",
+          dolor: "El extravío del Niño Jesús en Jerusalén",
+          gozo: "El hallazgo de Jesús en el Templo entre los doctores",
+          verse: '"Y lo encontraron en el Templo, sentado en medio de los maestros." — Lucas 2:46',
+        },
+        {
+          title: "Séptimo Misterio",
+          dolor: "La enfermedad y muerte de San José",
+          gozo: "San José muere asistido por Jesús y María, alcanzando la gloria eterna",
+          verse: '"Precioso a los ojos del Señor es la muerte de sus fieles." — Salmo 116:15',
+        },
+      ],
+    },
+    novena: {
+      title: "Novena a San José",
+      subtitle: "Nueve días de oración y meditación",
+      meditationLabel: "Meditación",
+      prayerLabel: "Oración del día",
+      finalPrayerTitle: "Oración Final de la Novena",
+      finalPrayer: "«Oh San José, cuya protección es tan grande, tan fuerte, tan pronta ante el trono de Dios, a ti confío todos mis intereses y deseos. Oh San José, asísteme con tu poderosa intercesión y obtén de tu Divino Hijo todas las gracias espirituales y temporales que necesito. Amén.»",
+      days: [
+        {
+          title: "Día 1 — La Vocación de San José",
+          meditation: "San José, escogido por Dios desde la eternidad para ser el esposo de María y padre adoptivo de Jesús. Medita en la grandeza de tu vocación y pide a Dios que descubras la tuya.",
+          prayer: `Oh San José, tú fuiste llamado por Dios para una misión única en la historia de la salvación.
+Ayúdame a conocer y amar mi propia vocación,
+a responder con el mismo «sí» generoso que tú diste
+cuando el ángel te reveló el misterio.
+
+Que yo también diga con fe: «Hágase tu voluntad».
+
+Amén.`,
+        },
+        {
+          title: "Día 2 — La Fe de San José",
+          meditation: "San José creyó sin ver, confió sin entender. Su fe en Dios fue probada y purificada. Pide la gracia de una fe fuerte que no vacile ante las dificultades.",
+          prayer: `San José, hombre de profunda fe,
+tú creyiste la palabra del ángel
+y actuaste sin dudar.
+Dame una fe firme y confiada
+que me sostenga en mis momentos de oscuridad.
+
+Cuando no entienda el camino de Dios en mi vida,
+ayúdame a creer y a avanzar con confianza.
+
+Amén.`,
+        },
+        {
+          title: "Día 3 — La Pureza de San José",
+          meditation: "San José, el «hombre justo», vivió con perfecta pureza de corazón. Su amor por María fue sagrado y fiel. Pide la gracia de la pureza en pensamientos, palabras y obras.",
+          prayer: `San José castísimo,
+modelo de pureza y rectitud,
+intercede por mí para que mi corazón sea limpio
+y mis acciones reflejen el amor de Dios.
+
+Protege mi alma y la de mi familia
+de todo lo que aleje de Dios.
+
+Amén.`,
+        },
+        {
+          title: "Día 4 — El Trabajo de San José",
+          meditation: "San José santificó el trabajo con sus manos. Carpintero de Nazaret, enseñó a Jesús el valor del trabajo honrado. Pide la gracia de trabajar con amor y dignidad.",
+          prayer: `San José Obrero,
+santifica mi trabajo diario
+y el de todas las personas que trabajan con honradez.
+Que yo encuentre en el trabajo
+no solo sustento para el cuerpo
+sino también para el alma.
+
+Intercede por los que no tienen trabajo
+y por los que sufren explotación.
+
+Amén.`,
+        },
+        {
+          title: "Día 5 — El Silencio de San José",
+          meditation: "En los Evangelios, San José nunca habla. Su vida fue un testimonio de acción silenciosa al servicio de Dios. Pide la gracia del silencio interior para escuchar a Dios.",
+          prayer: `San José del silencio sagrado,
+enséñame a escuchar antes de hablar,
+a orar antes de actuar,
+a confiar antes de querer entender.
+
+En el ruido de este mundo,
+ayúdame a encontrar el silencio interior
+donde Dios me habla al corazón.
+
+Amén.`,
+        },
+        {
+          title: "Día 6 — La Obediencia de San José",
+          meditation: "San José obedeció a Dios cada vez que el ángel le habló: al recibir a María, al huir a Egipto, al regresar a Israel. Su obediencia salvó la vida del Salvador. Pide la gracia de la obediencia a Dios.",
+          prayer: `San José obediente,
+tú te levantaste siempre que Dios te llamó,
+sin preguntar, sin dudar, sin demora.
+Dame la gracia de obedecer a Dios
+en cada circunstancia de mi vida,
+especialmente cuando no entiendo sus caminos.
+
+Que mi voluntad se doble siempre
+ante la voluntad divina.
+
+Amén.`,
+        },
+        {
+          title: "Día 7 — La Ternura de San José",
+          meditation: "San José amó a Jesús con ternura de padre verdadero. Lo protegió, lo alimentó, lo enseñó a trabajar. Su amor fue concreto y fiel. Pide la gracia del amor familiar.",
+          prayer: `San José padre amoroso,
+tú que cuidaste a Jesús con manos fuertes y corazón tierno,
+intercede por los padres y las madres del mundo.
+
+Que los hogares sean escuelas de amor,
+que los niños crezcan seguros y amados,
+y que las familias sean el primer reflejo
+del amor de Dios en el mundo.
+
+Amén.`,
+        },
+        {
+          title: "Día 8 — San José, Protector de la Iglesia",
+          meditation: "El Papa Pío IX proclamó a San José Patrono de la Iglesia Universal. Él protegió al Cuerpo de Cristo en Nazaret; ahora protege al Cuerpo de Cristo que es la Iglesia. Pide la gracia de amar y servir a la Iglesia.",
+          prayer: `San José, guardián de la Santa Iglesia,
+bajo tu protección está el Cuerpo Místico de Cristo.
+Intercede por el Papa, los obispos, sacerdotes
+y todos los fieles.
+
+Protege a la Iglesia de los ataques del mal,
+renueva su santidad
+y ayúdala a ser siempre signo del amor de Dios para el mundo.
+
+Amén.`,
+        },
+        {
+          title: "Día 9 — San José, Patrono de la Buena Muerte",
+          meditation: "San José murió en los brazos de Jesús y María. Por eso se le invoca como patrono de la buena muerte. Pide la gracia de morir en la gracia de Dios, asistido por el amor de María y de la Iglesia.",
+          prayer: `San José, patrono de la buena muerte,
+tú que cerraste tus ojos al mundo
+en los brazos de Jesús y María,
+alcánzame la gracia de perseverar en la fe
+hasta el final de mi vida.
+
+Que cuando llegue mi hora,
+me encuentres en gracia,
+y seas tú quien me acompañe
+a la presencia de Dios.
+
+Amén.`,
+        },
+      ],
+    },
+  },
 };
 
 export default es;
