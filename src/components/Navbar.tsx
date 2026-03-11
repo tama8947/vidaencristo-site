@@ -28,7 +28,7 @@ const LOCALE_DISPLAY: Record<Locale, { label: string; ariaLabel: string }> = {
   he: { label: "🇮🇱 עברית", ariaLabel: "Hebrew / עברית" },
 };
 
-const NAV_IDS = ["prayers", "rosary", "mercy", "gallery"] as const;
+const NAV_IDS = ["prayers", "rosary", "mercy", "catechism", "gallery"] as const;
 
 export default function Navbar() {
   const { t, locale, setLocale } = useLanguage();
@@ -58,6 +58,7 @@ export default function Navbar() {
     { id: "prayers", label: t.nav.prayers },
     { id: "rosary", label: t.nav.rosary },
     { id: "mercy", label: t.nav.mercy },
+    { id: "catechism", label: t.nav.catechism },
     { id: "gallery", label: t.nav.gallery },
   ] as const;
 

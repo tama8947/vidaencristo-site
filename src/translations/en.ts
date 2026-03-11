@@ -6,6 +6,7 @@ const en = {
     mercy: "Works of Mercy",
     gallery: "Gallery",
     sanJose: "Saint Joseph",
+    catechism: "Catechism",
   },
   hero: {
     tagline: "Vida en Cristo",
@@ -588,6 +589,161 @@ Amen.`,
         },
       ],
     },
+  },
+  catechism: {
+    title: "Catechism of the Catholic Church",
+    subtitle: "The four pillars of the faith",
+    intro:
+      "The Catechism of the Catholic Church (CCC), published in 1992 by Pope John Paul II, is the official compendium of the doctrine of the Church. It is organized into four great pillars that embrace the entirety of the Christian life.",
+    sourceLabel: "CCC",
+    closingQuote: `"Hear, O Israel: The Lord our God, the Lord is one; and you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength."`,
+    closingQuoteRef: "— Mark 12:29-30 · CCC 2196",
+    pillars: [
+      {
+        id: "creed",
+        icon: "✝️",
+        color: "amber",
+        title: "The Profession of Faith",
+        subtitle: "What we believe",
+        intro:
+          "The first pillar expounds the Apostolic Creed — the great symbols of the faith that summarize the mystery of God: Father, Son and Holy Spirit, and his work of creation and salvation.",
+        items: [
+          {
+            number: "CCC 26",
+            title: "The Human Capacity for God",
+            text: `"Man's life with God begins at that moment when he realizes he has been made in the image of God, oriented toward the fullness of life with him. God never ceases to draw man to himself, and only in God will man find the truth and happiness he never stops seeking."`,
+          },
+          {
+            number: "CCC 234",
+            title: "The Mystery of the Holy Trinity",
+            text: `"The mystery of the Most Holy Trinity is the central mystery of Christian faith and life. It is the mystery of God in himself. It is therefore the source of all the other mysteries of faith, the light that enlightens them."`,
+          },
+          {
+            number: "CCC 456",
+            title: "Why Did the Word Become Flesh?",
+            text: `"With the Nicene Creed, we answer by confessing: 'For us men and for our salvation he came down from heaven; by the power of the Holy Spirit he became incarnate from the Virgin Mary, and was made man.' The Word became flesh for us in order to save us by reconciling us with God."`,
+          },
+          {
+            number: "CCC 748",
+            title: "Christ — the Light of the Nations",
+            text: `"Christ is the light of all nations. This holy council, which is gathered in the Holy Spirit, ardently desires, by proclaiming the Gospel to every creature, to bring the light of Christ to all men."`,
+          },
+          {
+            number: "CCC 988",
+            title: "The Resurrection of the Body",
+            text: `"The Christian Creed — the profession of our faith in God, the Father, the Son, and the Holy Spirit, and in God's creative, saving, and sanctifying action — culminates in the proclamation of the resurrection of the dead on the last day and in life everlasting."`,
+          },
+        ],
+      },
+      {
+        id: "sacraments",
+        icon: "🕊️",
+        color: "blue",
+        title: "The Sacraments",
+        subtitle: "How we celebrate the faith",
+        intro:
+          "The seven sacraments are the efficacious signs of grace instituted by Christ and entrusted to the Church. Through them, divine life is dispensed to us. They encompass all the stages and all the important moments of Christian life.",
+        items: [
+          {
+            number: "CCC 1113",
+            title: "The Sacraments of Christ",
+            text: `"The whole liturgical life of the Church revolves around the Eucharistic sacrifice and the sacraments. There are seven sacraments in the Church: Baptism, Confirmation (or Chrismation), the Eucharist, Penance, the Anointing of the Sick, Holy Orders, and Matrimony."`,
+          },
+          {
+            number: "CCC 1213",
+            title: "Baptism — Gateway to Life",
+            text: `"Holy Baptism is the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments. Through Baptism we are freed from sin and reborn as sons of God; we become members of Christ, are incorporated into the Church and made sharers in her mission."`,
+          },
+          {
+            number: "CCC 1322",
+            title: "The Eucharist — Source and Summit",
+            text: `"The holy Eucharist completes Christian initiation. Those who have been raised to the dignity of the royal priesthood by Baptism and configured more deeply to Christ by Confirmation participate with the whole community in the Lord's own sacrifice by means of the Eucharist."`,
+          },
+          {
+            number: "CCC 1440",
+            title: "Penance and Reconciliation",
+            text: `"Sin is before all else an offense against God, a rupture of communion with him. At the same time it damages communion with the Church. For this reason conversion entails both God's forgiveness and reconciliation with the Church, which are expressed and accomplished liturgically by the sacrament of Penance and Reconciliation."`,
+          },
+          {
+            number: "CCC 1601",
+            title: "Matrimony in God's Plan",
+            text: `"The matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life, is by its nature ordered toward the good of the spouses and the procreation and education of offspring; this covenant between baptized persons has been raised by Christ the Lord to the dignity of a sacrament."`,
+          },
+        ],
+      },
+      {
+        id: "life",
+        icon: "🌿",
+        color: "green",
+        title: "Life in Christ",
+        subtitle: "How we live the faith",
+        intro:
+          "The third pillar presents the ultimate vocation of man: beatitude. It traces the path of that vocation through the Ten Commandments, the Beatitudes, and the virtues that lead to a life worthy of the Gospel.",
+        items: [
+          {
+            number: "CCC 1716",
+            title: "The Beatitudes",
+            text: `"The Beatitudes are at the heart of Jesus' preaching. They take up the promises made to the chosen people since Abraham. The Beatitudes fulfill the promises by ordering them no longer merely to the possession of a territory, but to the Kingdom of heaven."`,
+          },
+          {
+            number: "CCC 1803",
+            title: "Human Virtues",
+            text: `"A virtue is a habitual and firm disposition to do the good. It allows the person not only to perform good acts, but to give the best of himself. The virtuous person tends toward the good with all his sensory and spiritual powers; he pursues the good and chooses it in concrete actions."`,
+          },
+          {
+            number: "CCC 1858",
+            title: "The Ten Commandments",
+            text: `"The Ten Commandments state what is required in the love of God and love of neighbor. The first three concern love of God, and the other seven concern love of neighbor. As charity comprises the two commandments to which the Lord related 'the whole Law and the prophets,' so the Decalogue forms a unity."`,
+          },
+          {
+            number: "CCC 2052",
+            title: "\"Teacher, what good deed must I do?\"",
+            text: `"Young man, if you wish to be perfect, go, sell your possessions, and give the money to the poor, and you will have treasure in heaven; then come, follow me.' This passage makes clear that the way to perfection passes by way of the cross. There is an inseparable link between following Jesus and the Commandments."`,
+          },
+          {
+            number: "CCC 2196",
+            title: "The Social Doctrine of the Church",
+            text: `"In response to the question about the first of the commandments, Jesus says: 'The first is, Hear, O Israel: The Lord our God, the Lord is one; and you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength. The second is this, You shall love your neighbor as yourself.'"`,
+          },
+        ],
+      },
+      {
+        id: "prayer",
+        icon: "🙏",
+        color: "purple",
+        title: "Christian Prayer",
+        subtitle: "How we speak with God",
+        intro:
+          "The fourth pillar reveals the meaning and importance of prayer in the life of the Christian. It presents the Lord's Prayer as the model and summit of all Christian prayer, commenting on each of its petitions.",
+        items: [
+          {
+            number: "CCC 2558",
+            title: "What is Prayer?",
+            text: `"'Great is the mystery of the faith!' The Church professes this mystery in the Apostles' Creed and celebrates it in the sacramental liturgy, so that the life of the faithful may be conformed to Christ in the Holy Spirit to the glory of God the Father. This mystery requires that the faithful believe in it, celebrate it, and live from it in a vital and personal relationship with the living and true God. This relationship is prayer."`,
+          },
+          {
+            number: "CCC 2607",
+            title: "Jesus Teaches Us to Pray",
+            text: `"When Jesus prays he is already teaching us how to pray. His prayer to his Father is the theological path of our prayer to God. But the Gospels also contain explicit teachings of Jesus on prayer. Like a wise teacher he takes us where we are and leads us progressively toward the Father."`,
+          },
+          {
+            number: "CCC 2759",
+            title: "The Lord's Prayer",
+            text: `"Jesus 'was praying at a certain place, and when he ceased, one of his disciples said to him, Lord, teach us to pray, as John taught his disciples.' In response to this request the Lord entrusts to his disciples and to his Church the fundamental Christian prayer. St. Luke presents a brief text of five petitions, while St. Matthew gives a more developed version of seven petitions."`,
+          },
+          {
+            number: "CCC 2761",
+            title: "The Summary of the Whole Gospel",
+            text: `"The Lord's Prayer is truly the summary of the whole gospel. 'Since the Lord... after handing over the practice of prayer, said elsewhere, Ask and you will receive, and since everyone has petitions which are peculiar to his circumstances, the regular and appropriate prayer was taught first, as the foundation of further desires.'"`,
+          },
+          {
+            number: "CCC 2644",
+            title: "Forms of Prayer",
+            text: `"The Holy Spirit who teaches the Church and recalls to her all that Jesus said also instructs her in the life of prayer, inspiring new expressions of the same basic forms of prayer: blessing and adoration, petition, intercession, thanksgiving, and praise."`,
+          },
+        ],
+      },
+    ],
   },
 };
 
