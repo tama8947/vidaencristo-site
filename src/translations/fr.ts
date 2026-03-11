@@ -112,7 +112,7 @@ Il s'est penché sur son humble servante ;
 désormais tous les âges me diront bienheureuse.
 Le Tout-Puissant fit pour moi des merveilles ;
 saint est son nom !
-Sa miséricorde s'étend d'âge en âge
+Sa miséricorde s'étend d’âge en âge
 sur ceux qui le craignent.
 Déployant la force de son bras,
 il disperse les superbes.
@@ -141,7 +141,7 @@ Amen.`,
         items: [
           {
             name: "L'Annonciation",
-            meditation: "Nous contemplons le moment où l'ange Gabriel annonce à Marie qu'elle sera la Mère du Sauveur. Méditons sur son humble «oui» à la volonté de Dieu.",
+            meditation: "Nous contemplons le moment où l'ange Gabriel annonce à Marie qu’elle sera la Mère du Sauveur. Méditons sur son humble «oui» à la volonté de Dieu.",
             verse: '"Je vous salue, comblée de grâce, le Seigneur est avec vous." — Luc 1:28',
           },
           {
@@ -183,7 +183,7 @@ Amen.`,
           },
           {
             name: "Le Couronnement d'Épines",
-            meditation: "Les soldats couronnent Jésus d'épines en se moquant de sa royauté. Il endure l'humiliation avec une douceur et un amour infinis.",
+            meditation: "Les soldats couronnent Jésus d'épines en se moquant de sa royauté. Il endure l’humiliation avec une douceur et un amour infinis.",
             verse: '"Ils lui posèrent sur la tête une couronne d\'épines." — Matthieu 27:29',
           },
           {
@@ -205,7 +205,7 @@ Amen.`,
         items: [
           {
             name: "La Résurrection",
-            meditation: "À l'aube du troisième jour, le Christ ressuscite victorieux de la mort. C'est le fondement de notre foi et la source de notre espérance.",
+            meditation: "À l'aube du troisième jour, le Christ ressuscite victorieux de la mort. C’est le fondement de notre foi et la source de notre espérance.",
             verse: '"Pourquoi cherchez-vous parmi les morts celui qui est vivant ? Il n\'est pas ici, il est ressuscité." — Luc 24:5-6',
           },
           {
@@ -242,12 +242,12 @@ Amen.`,
           },
           {
             name: "Les Noces de Cana",
-            meditation: "À l'intercession de Marie, Jésus accomplit son premier miracle en changeant l'eau en vin. Marie nous conduit toujours vers son Fils.",
+            meditation: "À l'intercession de Marie, Jésus accomplit son premier miracle en changeant l’eau en vin. Marie nous conduit toujours vers son Fils.",
             verse: '"Faites tout ce qu\'il vous dira." — Jean 2:5',
           },
           {
             name: "L'Annonce du Royaume de Dieu",
-            meditation: "Jésus annonce le Royaume et appelle à la conversion. Son message d'amour et de miséricorde transforme les cœurs qui s'ouvrent à lui.",
+            meditation: "Jésus annonce le Royaume et appelle à la conversion. Son message d'amour et de miséricorde transforme les cœurs qui s’ouvrent à lui.",
             verse: '"Le temps est accompli et le Royaume de Dieu est tout proche. Repentez-vous et croyez à la Bonne Nouvelle." — Marc 1:15',
           },
           {
@@ -256,8 +256,8 @@ Amen.`,
             verse: '"Celui-ci est mon Fils bien-aimé, en qui j\'ai mis toute mon affection ; écoutez-le." — Matthieu 17:5',
           },
           {
-            name: "L'Institution de l'Eucharistie",
-            meditation: "À la Cène, Jésus nous donne son Corps et son Sang comme nourriture pour le chemin. L'Eucharistie est le cœur de l'Église.",
+            name: "L'Institution de l’Eucharistie",
+            meditation: "À la Cène, Jésus nous donne son Corps et son Sang comme nourriture pour le chemin. L'Eucharistie est le cœur de l’Église.",
             verse: '"Prenez et mangez, ceci est mon corps." — Matthieu 26:26',
           },
         ],
@@ -322,7 +322,7 @@ Amen.`,
   sanJose: {
     hero: {
       subtitle: "Père Adoptif de Jésus · Époux de la Vierge Marie",
-      quote: "« Gardien de la Sainte Famille, Patron de l\\'Église Universelle, modèle de foi, de silence et de travail »",
+      quote: "« Gardien de la Sainte Famille, Patron de l’Église Universelle, modèle de foi, de silence et de travail »",
     },
     tabs: {
       prayers: "Prières",
@@ -335,7 +335,7 @@ Amen.`,
       items: [
         {
           title: "Prière à Saint Joseph",
-          subtitle: "Patron de l\\'Église Universelle",
+          subtitle: "Patron de l’Église Universelle",
           text: `Ô Saint Joseph, époux de la Vierge Marie
 et père adoptif de Jésus,
 venez à mon secours par votre puissante intercession.
@@ -390,7 +390,7 @@ vous qui avez sanctifié le travail de vos mains,
 bénissez le travail de tous les hommes et de toutes les femmes.
 
 Qu'aucun travailleur ne manque de pain,
-qu'aucune famille ne souffre d'injustice,
+qu'aucune famille ne souffre d’injustice,
 et que le fruit du travail humain
 soit toujours une source de dignité et de joie.
 
@@ -410,20 +410,20 @@ Il se récite avec sept groupes de 7 Je vous salue Marie, en méditant sur chaqu
 Chaque dizaine est précédée d'un Notre Père et se termine par un Gloire au Père.`,
       dolorLabel: "Douleur",
       gozoLabel: "Joie",
-      closingNote: "Conclure avec le Salve Regina et l\\'invocation suivante :",
+      closingNote: "Conclure avec le Salve Regina et l’invocation suivante :",
       closingPrayer: "« Saint Joseph, priez pour nous. »",
       mysteries: [
         {
           title: "Premier Mystère",
-          dolor: "Le doute de Saint Joseph sur l\\'origine de la grossesse de Marie",
+          dolor: "Le doute de Saint Joseph sur l’origine de la grossesse de Marie",
           gozo: "L'ange révèle à Saint Joseph que Jésus est le Fils de Dieu",
-          verse: '"Joseph, fils de David, ne crains pas de prendre Marie pour épouse, car ce qui a été engendré en elle vient de l\\'Esprit Saint." — Matthieu 1:20',
+          verse: '"Joseph, fils de David, ne crains pas de prendre Marie pour épouse, car ce qui a été engendré en elle vient de l’Esprit Saint." — Matthieu 1:20',
         },
         {
           title: "Deuxième Mystère",
           dolor: "La pauvreté de la crèche de Bethléem",
           gozo: "La naissance de Jésus, le Sauveur du monde",
-          verse: '"Elle mit au monde son fils premier-né, l\\'emmaillota et le coucha dans une mangeoire." — Luc 2:7',
+          verse: '"Elle mit au monde son fils premier-né, l’emmaillota et le coucha dans une mangeoire." — Luc 2:7',
         },
         {
           title: "Troisième Mystère",
@@ -435,17 +435,17 @@ Chaque dizaine est précédée d'un Notre Père et se termine par un Gloire au P
           title: "Quatrième Mystère",
           dolor: "La fuite en Égypte pour échapper à Hérode",
           gozo: "La protection divine sur la Sainte Famille en Égypte",
-          verse: '"Lève-toi, prends l\\'enfant et sa mère, et fuis en Égypte." — Matthieu 2:13',
+          verse: '"Lève-toi, prends l’enfant et sa mère, et fuis en Égypte." — Matthieu 2:13',
         },
         {
           title: "Cinquième Mystère",
-          dolor: "L'amertume de l\\'exil en terre étrangère",
-          gozo: "Le retour à la terre promise après la mort d\\'Hérode",
-          verse: '"Lève-toi, prends l\\'enfant et sa mère et retourne en terre d\\'Israël." — Matthieu 2:20',
+          dolor: "L'amertume de l’exil en terre étrangère",
+          gozo: "Le retour à la terre promise après la mort d’Hérode",
+          verse: '"Lève-toi, prends l’enfant et sa mère et retourne en terre d’Israël." — Matthieu 2:20',
         },
         {
           title: "Sixième Mystère",
-          dolor: "La perte de l\\'Enfant Jésus à Jérusalem",
+          dolor: "La perte de l’Enfant Jésus à Jérusalem",
           gozo: "La trouvaille de Jésus dans le Temple parmi les docteurs",
           verse: '"Ils le trouvèrent dans le Temple, assis au milieu des docteurs de la Loi." — Luc 2:46',
         },
@@ -463,7 +463,7 @@ Chaque dizaine est précédée d'un Notre Père et se termine par un Gloire au P
       meditationLabel: "Méditation",
       prayerLabel: "Prière du jour",
       finalPrayerTitle: "Prière Finale de la Neuvaine",
-      finalPrayer: "« Ô Saint Joseph, dont la protection est si grande, si forte, si prompte devant le trône de Dieu, je vous confie tous mes intérêts et désirs. Ô Saint Joseph, assistez-moi par votre puissante intercession et obtenez de votre Divin Fils toutes les grâces spirituelles et temporelles dont j\\'ai besoin. Amen. »",
+      finalPrayer: "« Ô Saint Joseph, dont la protection est si grande, si forte, si prompte devant le trône de Dieu, je vous confie tous mes intérêts et désirs. Ô Saint Joseph, assistez-moi par votre puissante intercession et obtenez de votre Divin Fils toutes les grâces spirituelles et temporelles dont j’ai besoin. Amen. »",
       days: [
         {
           title: "Jour 1 — La Vocation de Saint Joseph",
@@ -479,7 +479,7 @@ Amen.`,
         },
         {
           title: "Jour 2 — La Foi de Saint Joseph",
-          meditation: "Saint Joseph a cru sans voir, a fait confiance sans comprendre. Sa foi en Dieu a été mise à l'épreuve et purifiée. Demandez la grâce d'une foi forte qui ne vacille pas devant les difficultés.",
+          meditation: "Saint Joseph a cru sans voir, a fait confiance sans comprendre. Sa foi en Dieu a été mise à l'épreuve et purifiée. Demandez la grâce d’une foi forte qui ne vacille pas devant les difficultés.",
           prayer: `Saint Joseph, homme de foi profonde,
 vous avez cru la parole de l'ange
 et avez agi sans hésiter.
@@ -535,7 +535,7 @@ Amen.`,
         },
         {
           title: "Jour 6 — L'Obéissance de Saint Joseph",
-          meditation: "Saint Joseph a obéi à Dieu chaque fois que l'ange lui a parlé : en accueillant Marie, en fuyant en Égypte, en retournant en Israël. Son obéissance a sauvé la vie du Sauveur. Demandez la grâce de l'obéissance à Dieu.",
+          meditation: "Saint Joseph a obéi à Dieu chaque fois que l'ange lui a parlé : en accueillant Marie, en fuyant en Égypte, en retournant en Israël. Son obéissance a sauvé la vie du Sauveur. Demandez la grâce de l’obéissance à Dieu.",
           prayer: `Saint Joseph obéissant,
 vous vous êtes levé chaque fois que Dieu vous a appelé,
 sans questionner, sans hésiter, sans tarder.
@@ -550,7 +550,7 @@ Amen.`,
         },
         {
           title: "Jour 7 — La Tendresse de Saint Joseph",
-          meditation: "Saint Joseph a aimé Jésus avec la tendresse d'un vrai père. Il l'a protégé, nourri, appris à travailler. Son amour était concret et fidèle. Demandez la grâce de l'amour familial.",
+          meditation: "Saint Joseph a aimé Jésus avec la tendresse d'un vrai père. Il l’a protégé, nourri, appris à travailler. Son amour était concret et fidèle. Demandez la grâce de l'amour familial.",
           prayer: `Saint Joseph, père aimant,
 vous qui avez pris soin de Jésus avec des mains fortes et un cœur tendre,
 intercédez pour les pères et les mères du monde.
@@ -564,7 +564,7 @@ Amen.`,
         },
         {
           title: "Jour 8 — Saint Joseph, Protecteur de l'Église",
-          meditation: "Le Pape Pie IX a proclamé Saint Joseph Patron de l'Église Universelle. Il a protégé le Corps du Christ à Nazareth ; maintenant il protège le Corps du Christ qui est l'Église. Demandez la grâce d'aimer et de servir l'Église.",
+          meditation: "Le Pape Pie IX a proclamé Saint Joseph Patron de l'Église Universelle. Il a protégé le Corps du Christ à Nazareth ; maintenant il protège le Corps du Christ qui est l’Église. Demandez la grâce d'aimer et de servir l’Église.",
           prayer: `Saint Joseph, gardien de la Sainte Église,
 le Corps Mystique du Christ est sous votre protection.
 Intercédez pour le Pape, les évêques, les prêtres
@@ -578,7 +578,7 @@ Amen.`,
         },
         {
           title: "Jour 9 — Saint Joseph, Patron de la Bonne Mort",
-          meditation: "Saint Joseph est mort dans les bras de Jésus et de Marie. C'est pourquoi il est invoqué comme patron de la bonne mort. Demandez la grâce de mourir dans la grâce de Dieu, assisté de l'amour de Marie et de l'Église.",
+          meditation: "Saint Joseph est mort dans les bras de Jésus et de Marie. C'est pourquoi il est invoqué comme patron de la bonne mort. Demandez la grâce de mourir dans la grâce de Dieu, assisté de l’amour de Marie et de l'Église.",
           prayer: `Saint Joseph, patron de la bonne mort,
 vous qui avez fermé les yeux au monde
 dans les bras de Jésus et de Marie,

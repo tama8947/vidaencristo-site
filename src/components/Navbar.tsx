@@ -13,6 +13,8 @@ const LOCALE_LABELS: Record<Locale, string> = {
   la: "LA",
   el: "EL",
   arc: "ܐܪܡ",
+  it: "IT",
+  he: "עב",
 };
 
 const LOCALE_DISPLAY: Record<Locale, { label: string; ariaLabel: string }> = {
@@ -22,6 +24,8 @@ const LOCALE_DISPLAY: Record<Locale, { label: string; ariaLabel: string }> = {
   la: { label: "✝️ Latina", ariaLabel: "Latina" },
   el: { label: "🇬🇷 Ελληνικά", ariaLabel: "Ελληνικά" },
   arc: { label: "🕊️ ܣܘܪܝܝܐ", ariaLabel: "Aramaic / Syriac" },
+  it: { label: "🇮🇹 Italiano", ariaLabel: "Italiano" },
+  he: { label: "🇮🇱 עברית", ariaLabel: "Hebrew / עברית" },
 };
 
 const NAV_IDS = ["prayers", "rosary", "mercy", "gallery"] as const;
