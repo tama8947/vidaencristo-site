@@ -13,10 +13,12 @@ import fr from "@/translations/fr";
 import la from "@/translations/la";
 import el from "@/translations/el";
 import arc from "@/translations/arc";
+import it from "@/translations/it";
+import he from "@/translations/he";
 
-export type Locale = "en" | "es" | "fr" | "la" | "el" | "arc";
+export type Locale = "en" | "es" | "fr" | "la" | "el" | "arc" | "it" | "he";
 
-const translations: Record<Locale, Translations> = { en, es, fr, la, el, arc };
+const translations: Record<Locale, Translations> = { en, es, fr, la, el, arc, it, he };
 
 interface LanguageContextType {
   locale: Locale;
